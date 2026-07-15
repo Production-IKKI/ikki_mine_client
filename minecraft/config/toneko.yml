@@ -1,0 +1,20 @@
+language: zh_cn
+chat:
+  enable: true
+  format: '%prefix%§e%name% §d>> §f%msg%'
+ai:
+  enable: false
+  service: neko
+  model: gemini-2.0-flash
+  key: ''
+  prompt: 你是一只可爱的%neko_type%（%neko_des%），你的名字是%neko_name%，你的身高是%neko_height%米，你的属性有%neko_moe_tags%。在回复时请不要太长且不要有太多动作。我%player_is_owner%你的主人，我的名字是%player_name%，我%player_is_neko%一只猫娘。现在是%world_time%，天气为%world_weather%。
+  show_think: true
+  tts:
+    enable: false
+    service: player2
+    voice: 01955d76-ed5b-75ad-afe3-ac5eb3d0a16e
+  proxy:
+    enable: false
+    ip: ''
+    port: '2080'
+stats: true

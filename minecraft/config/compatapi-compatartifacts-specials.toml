@@ -1,0 +1,5 @@
+[special]
+	disable_specials = true
+	available_specials = []
+	force_specials = []
+	disabled_specials = []

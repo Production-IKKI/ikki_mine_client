@@ -1,0 +1,16 @@
+filename = 'memorysweep-1.21.1-1.1.2-neoforge.jar'
+name = 'MemorySweep'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ddb6ef26538b43a9ec226b089536b304ef24eb3bf81611322e954b51738ac4551fb8074f7a3ad12fb41301517fe11549468fade6e36d6f151570389f1e3d5efd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3oJ7L0Iq/versions/msYCcgnh/memorysweep-1.21.1-1.1.2-neoforge.jar'
+
+[update.modrinth]
+mod-id = '3oJ7L0Iq'
+version = 'msYCcgnh'

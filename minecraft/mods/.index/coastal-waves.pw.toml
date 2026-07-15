@@ -1,0 +1,16 @@
+filename = 'Waves-1.21.x-1.6.jar'
+name = 'Coastal Waves'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8efdaba5838a659b825433e4e701f6cd90d45e49f8a6838a2d83bf271fd055d5fb16f1ee075e0d2ebba4f9013569b33661d1ef40027f7c705f570dba5873108f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2ygdYUcf/versions/U5Cx2fXK/Waves-1.21.x-1.6.jar'
+
+[update.modrinth]
+mod-id = '2ygdYUcf'
+version = 'U5Cx2fXK'

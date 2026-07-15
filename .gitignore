@@ -1,0 +1,66 @@
+# =====================================================================
+# IMC 配布リポジトリ .gitignore
+# 実行時生成物・個人データ・サーバーアドレス痕跡を除外する。
+# ※ このリポジトリは公開 (public)。ここに載っていない新種のファイルを
+#    追加する前に「アドレス/個人情報を含まないか」を必ず確認すること。
+# =====================================================================
+
+# --- 実行時生成物 (起動すると再生成される) ---
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/.mixin.out/
+minecraft/local/
+minecraft/dynamic-data-pack-cache/
+minecraft/dynamic-resource-pack-cache/
+minecraft/downloads/
+minecraft/moddata/
+minecraft/data/
+minecraft/coremods/
+minecraft/moonlight-global-datapacks/
+minecraft/patchouli_books/
+minecraft/texturepacks/
+minecraft/server-resource-packs/
+minecraft/trees/
+minecraft/schematics/
+minecraft/easy_npc/
+minecraft/emi.json
+minecraft/.qmenu_opened.marker
+minecraft/TrashSlotSaveState.json
+minecraft/patchouli_data.json
+minecraft/command_history.txt
+minecraft/realms_persistence.json
+
+# --- 個人データ ---
+minecraft/config/spark/
+minecraft/config/sounds/chat.json
+minecraft/saves/
+minecraft/screenshots/
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/options.txt.bak*
+instance.cfg.bak*
+spark_data/
+
+# --- ★サーバーアドレスの痕跡を含む (公開厳禁) ---
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/.boss_checklist_data/
+minecraft/xaero/
+minecraft/XaeroWaypoints_BACKUP*/
+minecraft/fancymenu_data/last_world.fmdata
+minecraft/bluemap/
+minecraft/showdown/
+minecraft/Distant_Horizons_server_data/
+
+# --- 大容量キャッシュ (100MB超の元・配布不要) ---
+minecraft/armourers_workshop/skin-cache/
+minecraft/armourers_workshop/skin-database/
+
+# --- 管理者の作業バックアップ (配布不要) ---
+*.bak
+*.backup0
+
+# --- OS/ツール ---
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,16 @@
+filename = 'apothic_equipment-1.0.0-neoforge-1.21.1.jar'
+name = 'Apothic Equipment'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a681d29c086b9168dba6ab59f030161663d3213d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6102842
+project-id = 1182801

@@ -1,0 +1,16 @@
+filename = 'warriorrage-neoforge-1.21.1-1.0.5.jar'
+name = 'Warrior Rage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '793f4e998c227e2ab5a082f676a3f5ff1a23dbdd5b50fde96bcd0cddc4c186290ec6401db7fd9146086c71e798de82152a7ccc52082da8638b5f62875e2d511a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1BGsoydA/versions/QuOacUHh/warriorrage-neoforge-1.21.1-1.0.5.jar'
+
+[update.modrinth]
+mod-id = '1BGsoydA'
+version = 'QuOacUHh'

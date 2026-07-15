@@ -1,0 +1,50 @@
+/*
+IKKI 整備パック ([2]): Cristel Lib structure_toggle_config に mining_system を追加
+適用先: config/cristellib/dungeons_arise/structure_toggle_config.json5
+動作: ファイル全体を上書きコピー (Cristel Lib が起動時に再生成しないことを前提)
+*/
+{
+	"major_structures": {
+		"aviary": true,
+		"bandit_towers": true,
+		"bandit_village": true,
+		"ceryneian_hind": true,
+		"coliseum": true,
+		"foundry": true,
+		"greenwood_pub": true,
+		"heavenly_challenger": true,
+		"heavenly_conqueror": true,
+		"heavenly_rider": true,
+		"illager_campsite": true,
+		"illager_corsair": true,
+		"illager_fort": true,
+		"illager_galley": true,
+		"illager_windmill": true,
+		"infested_temple": true,
+		"keep_kayra": true,
+		"kisegi_sanctuary": true,
+		"mechanical_nest": true,
+		"merchant_campsite": true,
+		"mining_complex": true,
+		"mining_system": true,
+		"monastery": true,
+		"mushroom_house": true,
+		"mushroom_mines": true,
+		"mushroom_village": true,
+		"plague_asylum": true,
+		"scorched_mines": true,
+		"shiraz_palace": true,
+		"small_blimp": true,
+		"thornborn_towers": true,
+		"typhon": true,
+		"undead_pirate_ship": true
+	},
+	"minor_structures": {
+		"abandoned_temple": true,
+		"bathhouse": true,
+		"fishing_hut": true,
+		"jungle_tree_house": true,
+		"lighthouse": true,
+		"wishing_well": true
+	}
+}

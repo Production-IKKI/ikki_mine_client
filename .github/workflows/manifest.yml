@@ -1,0 +1,40 @@
+# main への push で manifest.json を自動生成してコミットする。
+# - paths-ignore で manifest.json 自身の変更では再トリガーしない (ループ防止)。
+#   さらに GITHUB_TOKEN による push はワークフローを再トリガーしない (二重の保険)。
+# - manifest の "commit" はこの run の GITHUB_SHA (= 内容ファイルのコミット)。
+#   クライアントはこの commit ピン止め URL からダウンロードする。
+name: Generate manifest
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "manifest.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifest
+  cancel-in-progress: true
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate manifest.json
+        run: python3 .github/scripts/gen_manifest.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          if git diff --cached --quiet; then
+            echo "manifest unchanged"
+          else
+            git commit -m "chore: update manifest [skip manifest]"
+            git push
+          fi

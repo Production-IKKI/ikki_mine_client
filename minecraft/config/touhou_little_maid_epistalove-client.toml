@@ -1,0 +1,35 @@
+[ai_letter_generation]
+	#Extra creativity temperature applied when generating letters (0.0–0.5, higher = more creative)
+	# Default: 0.3
+	# Range: 0.0 ~ 0.5
+	creativity_temperature_boost = 0.3
+	#Number of recent letters kept in memory to avoid repeated content
+	# Default: 10
+	# Range: 5 ~ 50
+	memory_size = 10
+	#Whether to enable context enrichment (inject dynamic info like time, environment, maid status)
+	enable_context_enrichment = true
+	#Whether to enable the quality filter to block low-quality or inappropriate content
+	enable_quality_filter = true
+	#Inject maid's custom persona from AI chat settings into the system prompt
+	enable_custom_persona = true
+	#Minimum length of generated letter content (characters) to avoid being too short
+	# Default: 10
+	# Range: 5 ~ 50
+	min_content_length = 10
+	#Maximum number of generic phrases allowed per letter; exceeding marks content as low quality
+	# Default: 2
+	# Range: 0 ~ 5
+	max_generic_phrases = 2
+	#List of expression techniques used to diversify style
+	expression_techniques = ["运用生动的细节描写", "加入感官体验的描述", "使用比喻和拟人手法", "营造特定的氛围感", "运用对比和层次感", "加入动作和场景描写", "使用富有画面感的词汇", "创造独特的表达角度"]
+	#Context templates; should contain two %s placeholders for weather and emotion
+	context_templates = ["在这个%s的%s，", "当%s轻抚过窗台时，", "在%s的陪伴下，", "望着%s的天空，", "听着%s的声音，", "感受着%s的气息，", "在这个特别的时刻，", "伴随着%s的心情，"]
+	#Time descriptions for dynamic context
+	time_descriptions = ["清晨", "午后", "黄昏", "夜晚", "深夜", "黎明", "正午", "傍晚"]
+	#Weather descriptors for dynamic context
+	weather_descriptions = ["微风", "细雨", "阳光", "月光", "星光", "雪花", "云朵", "晨露"]
+	#Emotion descriptors for dynamic context
+	emotional_states = ["温柔", "欣喜", "宁静", "期待", "思念", "满足", "好奇", "关怀"]
+	#Creativity tips to enrich wording variety
+	creativity_tips = ["尝试使用比喻或拟人的手法", "可以加入一些小细节，比如声音、气味、触感等", "试着从不同的角度来描述同一件事", "可以使用一些诗意的表达", "尝试营造特定的氛围或情绪", "可以加入一些想象力丰富的元素", "试着用对话或内心独白的形式", "可以使用一些文学性的修辞手法"]

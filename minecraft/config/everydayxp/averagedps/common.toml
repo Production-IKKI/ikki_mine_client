@@ -1,0 +1,12 @@
+#Combat Settings
+[combat]
+	#Time in seconds before the live HUD hides for an inactive player
+	# Default: 60
+	# Range: 1 ~ 3600
+	hud_timeout_seconds = 60
+	#Time in seconds before stored combat data is discarded if the boss never dies
+	# Default: 600
+	# Range: 10 ~ 86400
+	combat_abandon_timeout_seconds = 600
+	#Show combat summary message in chat when a boss fight ends
+	show_combat_end_message = true

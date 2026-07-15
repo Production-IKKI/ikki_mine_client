@@ -1,0 +1,21 @@
+# IkkiPartyHud client mod config (v1.1.0)
+# 変更後はクライアント再起動で反映。
+
+# HUD 位置 (画面比率 0..1)。 X=左からの比率, Y=上からの比率
+hudX=0.01
+hudY=0.40
+
+# 描画倍率 (0.5=半分, 1.0=元サイズ, 1.5=1.5倍)
+hudScale=0.70
+
+# 状態異常アイコン表示
+showStatusEffects=true
+
+# HP バーの色 (0xAARRGGBB 8桁 hex)
+barColorHigh=0xFF00CC00
+barColorMid=0xFFDDBB00
+barColorLow=0xFFCC0000
+
+# HP 比率のしきい値 (>= high は緑 / mid...high は黄 / < low は赤)
+barThresholdHigh=0.66
+barThresholdLow=0.25

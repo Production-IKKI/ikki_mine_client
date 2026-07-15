@@ -1,0 +1,16 @@
+filename = 'easy_npc_config_ui-neoforge-1.21.1-6.19.0.jar'
+name = 'Easy NPC: Config UI'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '557600f4ac1d2201f6ab51ada16c55b1ff0e1e412c11a606a5a46e0ab3405bd24d97a3122268d541b45da4b691123105971b3de31354abc0aac620769f17f9fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uTGjf7vA/versions/mTP5eJn3/easy_npc_config_ui-neoforge-1.21.1-6.19.0.jar'
+
+[update.modrinth]
+mod-id = 'uTGjf7vA'
+version = 'mTP5eJn3'

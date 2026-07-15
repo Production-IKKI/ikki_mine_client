@@ -1,0 +1,14 @@
+[Items]
+	#見習い魔術師のローブのケープアニメーションを有効化する
+	enableApprenticeMageRobeCapeAnimation = true
+	#スペルガンの残弾 HUD をクロスヘア付近に表示する
+	enableSpellgunAmmoHud = true
+	#Render the Mana Force Blade sheath on your hip when the blade is in your hotbar.
+	#Always disabled in Epic Fight environments.
+	enableManaForceBladeHotbarSheathRendering = true
+	#スマッシュキャストの錫杖のスマッシュ攻撃命中時に一時的なブロック揺れを描画する
+	enableSmashcastScepterTremorBlockRendering = true
+
+[Blocks]
+	#エッセンス燻製台のパーティクル色解析を無効化し、常に代替色を使う
+	disableEssenceSmokerParticleTextureAnalysis = false

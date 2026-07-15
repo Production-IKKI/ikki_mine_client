@@ -1,0 +1,8 @@
+#If true, the 'Charge' effect from Iron's Spells 'n Spellbooks will be modified to give Lightning Spell Power instead of generic Spell Power and Movement Speed.
+modifyChargeEffect = true
+#If true, players must learn spells (via /somake learn or other means) before using them. If false, all spells are unlocked by default.
+enableSpellLockSystem = false
+#The maximum number of familiars a player can tame from the Alshanex Familiars mod (if installed). Default is 10.
+# Default: 10
+# Range: > 1
+familiarLimit = 10

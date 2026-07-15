@@ -1,0 +1,247 @@
+#Damage multiplier settings for spells added by this mod.
+[DamageMultipliers]
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	skyEdge = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	arcaneBlast = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	archerMultiple = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	breachingEnemy = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	arcaneBeam = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	bulletStream = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	higanbana = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	worldFlatter = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	flySwatter = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	compoundPhial = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	commenceFire = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	phalanxCharge = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	slashBlade = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	thermalProcess = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	mantisLeap = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	featherRush = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	tinyLumberjack = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	moonLight = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	quickArms = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	manaCharge = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	precisionJack = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	grindRunner = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	manaSlash = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	autoTurret = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	illuminateStellar = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	uniteLuna = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	healingBloom = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	shock = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	silentAssassin = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	tiroVolley = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	magicSpear = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	frostRune = 1.0
+
+	#Entries for spellCraftBlacklist use "modid:spell_id" (example: "irons_spellbooks:black_hole").
+	[Blocks.ApprenticeDesk]
+		disableNonJobSiteFeatures = false
+		enableSpellCraftBlacklist = false
+		spellCraftBlacklist = []
+		requireSameSchool = false
+		disableCommonRarityConversion = false
+
+	#20 ticks = 1 second. Default = 1 minute.
+	[Blocks.ArcanumInAJar]
+		# Default: 3600
+		# Range: > 1
+		ticksPerStoredParameter = 3600
+
+	#WARNING: Ignores Spell Dispenser spell profile and denylist config files.
+	#Use at your own risk. This can allow unsupported or intentionally blocked spells.
+	[Blocks.SpellDispenser]
+		ignoreSpellProfileAndDenylistFiles = false
+
+	[Items.ArcaneCinder]
+		#Limit Arcane Cinder speedup to vanilla furnace block entities only.
+		#If disabled, behavior on non-vanilla AbstractFurnaceBlockEntity implementations is not guaranteed.
+		limitArcaneCinderSpeedupToVanillaFurnaces = true
+
+	#Ticks before absorption recovery resumes after equipping or taking absorption damage.
+	[Items.AbsorptionAmplifyAmulet]
+		# Default: 8.0
+		# Range: 0.0 ~ 1000.0
+		baseAbsorptionTarget = 8.0
+		# Default: 100
+		# Range: 0 ~ 72000
+		recoveryDelayTicks = 100
+
+	#Health settings use Minecraft health points (2 = 1 heart).
+	[Items.ScarletThirst]
+		# Default: 4.0
+		# Range: 2.0 ~ 20.0
+		requiredHealth = 4.0
+		# Default: 1.0
+		# Range: 1.0 ~ 20.0
+		drainHealth = 1.0
+		# Default: 4.0
+		# Range: 1.0 ~ 20.0
+		drainEmergencyHealth = 4.0
+		# Default: 30.0
+		# Range: 0.0 ~ 10000.0
+		recoverMana = 30.0
+		# Default: 100.0
+		# Range: 0.0 ~ 10000.0
+		recoverEmergencyMana = 100.0
+
+	[Items.CraftsmansDelight]
+		canImbueEnchantment = true
+		# Default: 500.0
+		# Range: 0.0 ~ 10000.0
+		requiredMana = 500.0
+		# Default: 3
+		# Range: 1 ~ 10
+		fortuneLevel = 3
+
+	#Global spell power attribute modifier amount per armor piece. 0.01 = +1%.
+	[Items.ApprenticeMageRobe]
+		# Default: 0.05
+		# Range: 0.0 ~ 10.0
+		spellPowerBonusPerPiece = 0.05
+
+	#Global spell power attribute modifier amount per armor piece. 0.01 = +1%.
+	[Items.EnchantressRobe]
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		spellPowerBonusPerPiece = 0.1
+
+	#Spell power attribute modifier amount per recorded school history. 0.01 = +1%.
+	[Items.ChromaticMagiaDress]
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		spellPowerBonusPerPiece = 0.1
+		# Default: 0.01
+		# Range: 0.0 ~ 10.0
+		schoolSpellPowerBonusPerHistory = 0.01
+
+	#Global spell power attribute modifier amount per armor piece. 0.01 = +1%.
+	[Items.StealthRuneArmor]
+		# Default: 0.05
+		# Range: 0.0 ~ 10.0
+		spellPowerBonusPerPiece = 0.05
+
+	[Items.PastelStaff]
+		# Default: 20
+		# Range: 0 ~ 1000
+		amplify_tinted_magic = 20
+
+	[Items.IsekaiTravelGuidebook]
+		#Show a tooltip on the Isekai Travel Guidebook. Disable this if it feels too intrusive.
+		showTooltip = true
+		#Add the Isekai Travel Guidebook to bonus chest loot.
+		enableBonusChestLoot = true
+
+	[Items.ManaForceBlade]
+		#Scales the imbued school attack damage multiplier. 1.0 = default behavior. 0 disables imbued attack damage changes.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		imbueDamageMultiplierScale = 1.0
+		#Mana cost multiplier for imbued melee hits. 0 disables hit mana cost and its tooltip.
+		# Default: 3.0
+		# Range: 0.0 ~ 10000.0
+		attackManaCostMultiplier = 3.0
+		#Scales only the school-derived hit mana cost increase. 1.0 follows damage growth. 0 ignores school multiplier for hit mana cost.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		attackManaSchoolMultiplierScale = 1.0
+		# Default: 50.0
+		# Range: 0.0 ~ 10000.0
+		meleeGuardManaCost = 50.0
+		# Default: 20.0
+		# Range: 0.0 ~ 10000.0
+		rangedGuardManaCost = 20.0
+		disableManaRecoveryWhileGuarding = true
+		#Ticks treated as perfect guard for vanilla-style Mana Force Blade guard. Not used when Epic Fight is installed because Epic Fight guard skills take priority.
+		# Default: 10
+		# Range: 0 ~ 72000
+		perfectGuardTicks = 10
+
+	[Items.MultipurposeStaffrifle]
+		#Cooldowns at or below this value are removed for Multipurpose Staffrifle special casts. 200 ticks = 10 seconds.
+		# Default: 200
+		# Range: 0 ~ 72000
+		cooldownBypassThresholdTicks = 200
+		#Cooldown ticks subtracted from longer Multipurpose Staffrifle special casts. 600 ticks = 30 seconds.
+		# Default: 600
+		# Range: 0 ~ 72000
+		cooldownReductionTicks = 600
+		#Minimum cooldown after Multipurpose Staffrifle special cast reduction. 200 ticks = 10 seconds.
+		# Default: 200
+		# Range: 0 ~ 72000
+		reducedCooldownMinimumTicks = 200
+		#Minimum server-side interval between ADS full-auto special cast attempts.
+		# Default: 3
+		# Range: 1 ~ 72000
+		adsFullAutoIntervalTicks = 3
+
+	[Spells.AutoMagnet]
+		disableCollectManaCost = false
+
+	[Spells.ForceField]
+		# Default: 150.0
+		# Range: 0.0 ~ 10000.0
+		drainManaBasePerHit = 150.0

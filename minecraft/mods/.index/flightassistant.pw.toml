@@ -1,0 +1,16 @@
+filename = 'flightassistant-neoforge-3.0.1+mc1.21.1.jar'
+name = 'FlightAssistant'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2f5408b44ba85eac8f4e3afd18bc98016433a5802c25d085fa1f9195e525a437c4614de84b633b573152f23bd22e4f01eed06388aec0fcede54f2dc7f50a85b1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CWqLEOPt/versions/4BrkHe7j/flightassistant-neoforge-3.0.1%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'CWqLEOPt'
+version = '4BrkHe7j'

@@ -1,0 +1,8 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+moe.plushie.armourers_workshop.core.client.gui.widget.ContainerMenuScreen {
+}
+

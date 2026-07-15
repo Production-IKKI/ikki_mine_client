@@ -1,0 +1,31 @@
+# タグ push (v*) でフルパック zip を作成し Release に添付する。
+# zip はルート直下に instance.cfg がある構造 (Prism instances/IMC/ へ
+# 展開するだけで動く)。初回導入のクライアントツールがこれを取得する。
+name: Release full pack
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build full pack zip
+        run: |
+          zip -q -r "IMC_full_${GITHUB_REF_NAME}.zip" . \
+            -x ".git/*" -x ".github/*" -x "manifest.json" -x ".gitignore"
+          ls -lh IMC_full_*.zip
+          sha256sum IMC_full_*.zip > "IMC_full_${GITHUB_REF_NAME}.zip.sha256"
+
+      - name: Create release with asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            IMC_full_*.zip
+            IMC_full_*.zip.sha256

@@ -1,0 +1,419 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.natures_spirit]
+			cheese_block = true
+
+		[types.cake.tofucraft]
+			tofucake = true
+			zundatofucake = true
+			soycheese_tart = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+		[types.cake.veggiesdelight]
+			carrot_cake = true
+
+		[types.cake.extradelight]
+			coffee_cake = true
+			chocolate_cake = true
+			lemon_cucumber_cake = true
+			melon_layer_cake = true
+
+		[types.wood_type.deeperdarker]
+			bloom = true
+			echo = true
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.wispwillow]
+			willow = true
+
+		[types.wood_type.hexalia]
+			cottonwood = true
+			willow = true
+
+		[types.wood_type.natures_spirit]
+			redwood = true
+			sugi = true
+			wisteria = true
+			fir = true
+			willow = true
+			aspen = true
+			maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.tofucraft]
+			leek_green = true
+			leek = true
+			tofustem = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.iceandfire]
+			dreadwood = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.wood_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.wood_type.ramadandelight]
+			palm = true
+
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
+		[types.wood_type.expandeddelight]
+			cinnamon = true
+
+		[types.wood_type.extradelight]
+			cinnamon = true
+			fruit = true
+
+		[types.wood_type.crabbersdelight]
+			palm = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.hexalia]
+			cottonwood = true
+			willow = true
+
+		[types.leaves_type.occultism]
+			otherworld = true
+
+		[types.leaves_type.natures_spirit]
+			frosty_redwood = true
+			redwood = true
+			sugi = true
+			wisteria = true
+			white_wisteria = true
+			part_white_wisteria = true
+			blue_wisteria = true
+			part_blue_wisteria = true
+			pink_wisteria = true
+			part_pink_wisteria = true
+			purple_wisteria = true
+			part_purple_wisteria = true
+			frosty_fir = true
+			fir = true
+			willow = true
+			aspen = true
+			yellow_aspen = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
+
+		[types.leaves_type.tofucraft]
+			tofu = true
+			apricot = true
+
+		[types.leaves_type.biomesoplenty]
+			null = true
+			origin = true
+			flowering_oak = true
+			cypress = true
+			snowblossom = true
+			rainbow_birch = true
+			fir = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.iceandfire]
+			dreadwood = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.deep_aether]
+			roseroot = true
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.leaves_type.twilightforest]
+			thorn = true
+			beanstalk = true
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			rainbow_oak = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.leaves_type.fruitsdelight]
+			pear = true
+			hawberry = true
+			lychee = true
+			mango = true
+			persimmon = true
+			peach = true
+			orange = true
+			apple = true
+			mangosteen = true
+			bayberry = true
+			kiwi = true
+			fig = true
+			durian = true
+
+		[types.leaves_type.twilightdelight]
+			ironwood = true
+
+		[types.leaves_type.culturaldelights]
+			avocado = true
+			fruiting_avocado = true
+
+		[types.leaves_type.croptopia]
+			cinnamon = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+		[types.leaves_type.aetheric_roots]
+			ether = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
+
+		[types.leaves_type.ramadandelight]
+			palm = true
+
+		[types.leaves_type.expandeddelight]
+			cinnamon = true
+
+		[types.leaves_type.extradelight]
+			cinnamon = true
+
+		[types.leaves_type.crabbersdelight]
+			palm = true
+
+		[types.leaves_type.dynamictrees]
+			spruce = true
+			oak_undergrowth = true
+			oak = true
+			mangrove = true
+			jungle_undergrowth = true
+			jungle = true
+			flowering_azalea = true
+			dark_oak = true
+			cherry = true
+			birch = true
+			azalea = true
+			acacia = true
+
+		[types.leaves_type.dtnatures_spirit]
+			yellow_maple = true
+			wisteria = true
+			willow = true
+			white_wisteria = true
+			sugi = true
+			saxaul = true
+			red_maple = true
+			redwood = true
+			purple_wisteria = true
+			pink_wisteria = true
+			part_white_wisteria = true
+			part_purple_wisteria = true
+			part_pink_wisteria = true
+			part_blue_wisteria = true
+			palo_verde = true
+			orange_maple = true
+			olive = true
+			mahogany = true
+			larch = true
+			joshua = true
+			ghaf = true
+			frosty_redwood = true
+			frosty_fir = true
+			fir = true
+			cypress = true
+			coconut = true
+			cedar = true
+			blue_wisteria = true
+			aspen = true
+
+		[types.leaves_type.dtquark]
+			warm_blossom = true
+			sunny_blossom = true
+			serene_blossom = true
+			frosty_blossom = true
+			flowering_azalea = true
+			fiery_blossom = true
+			azalea = true
+			ancient = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.valhelsia_structures]
+			bundled_posts = true
+			post = true
+			bundled_stripped_posts = true
+			stripped_post = true
+			cut_post = true
+			cut_stripped_post = true
+
+		[entries.wood_type.valhelsia_furniture]
+			stool = true
+			hay_chair = true
+			chair = true
+			table = true
+			desk_drawer = true
+			desk = true
+
+		[entries.wood_type.storagedelight]
+			small_drawers = true
+			single_door_cabinet = true
+			cabinet_with_glass_doors = true
+			cabinet_with_polished_tuff_countertop = true
+			drawer = true
+			cabinet_with_polished_andesite_countertop = true
+			cabinet_with_polished_deepslate_countertop = true
+			bookshelf_with_door = true
+			glass_cabinet = true
+			drawer_with_door = true
+			drawer_with_books = true
+
+		[entries.wood_type.mcwbridges]
+			bridge_pier = true
+			rope_bridge_stair = true
+			log_bridge_stair = true
+			rail_bridge = true
+			rope_bridge = true
+			log_bridge_middle = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.wood_type.storagedrawers]
+			half_drawers_1 = true
+			half_drawers_4 = true
+			half_drawers_2 = true
+			trim = true
+			full_drawers_2 = true
+			full_drawers_4 = true
+			full_drawers_1 = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			chest = true
+			ladder = true
+			hollow_log = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			stripped_post = true
+			vertical_slab = true
+
+		[entries.wood_type.twilightforest]
+			banister = true
+			hollow_log_climbable = true
+			hollow_log_horizontal = true
+			hollow_log_vertical = true
+			hollow_log = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true

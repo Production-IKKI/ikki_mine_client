@@ -1,0 +1,16 @@
+filename = 'bl_accessories_layer-1.2.2-neoforge+1.21.1.jar'
+name = 'Beltborne Lanterns: Accessories Layer'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'cfee104af6e496689805aa31eb2540df2c2da653cc269217d279a862d441bb60d000f950974a55078f815cc5bced054ed448fa04acf2dc0af964532b579d09ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/geZ7ilkE/versions/217aqMLc/bl_accessories_layer-1.2.2-neoforge%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'geZ7ilkE'
+version = '217aqMLc'

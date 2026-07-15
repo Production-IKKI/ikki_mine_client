@@ -1,0 +1,8 @@
+#Client-side visual settings for enchanted plants
+[plants]
+	#If true, Ghost Fern blocks emit ambient particles client-side
+	ghostFernEmitsParticles = true
+	#If true, Celestial Bloom blocks emit ambient particles client-side
+	celestialBloomEmitsParticles = true
+	#If true, Dreamshrooms emit ambient particles client-side
+	dreamshroomEmitsParticles = true

@@ -1,0 +1,309 @@
+#Peyro Scythe Config
+["Frost Hell Spell"]
+	#Whether Frost Hell spell can be obtained from loot chests
+	frostHellAllowLooting = false
+	#Arc degree of Frost Hell attack
+	# Default: 90
+	# Range: 1 ~ 360
+	frostHellDegree = 90
+	#Basic radius of Frost Hell in blocks
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	frostHellBasicRadius = 5.0
+
+["Glacier Fall Spell"]
+	#Whether Glacier Fall can be obtained from loot chests
+	glacierAllowLooting = true
+	#Scale growth per spell level for Glacier
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	glacierScaleGrowthPerLevel = 1.0
+	#Maximum scale of Glacier
+	# Default: 10.0
+	# Range: 0.0 ~ 114514.0
+	glacierScaleMax = 10.0
+	#Whether to spawn particles when Glacier hits the ground
+	"Spawn Particles when the Glacier falls on ground" = true
+
+["Death Smoke Spell"]
+	#Whether Death Smoke can be obtained from loot chests
+	deathSmokeAllowLooting = true
+	#Basic health percentage threshold to instantly kill
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	deathSmokeBasicKillThreshold = 0.04
+	#Kill threshold growth per spell level
+	# Default: 0.00800000037997961
+	# Range: 0.0 ~ 1.0
+	deathSmokeKillThresholdGrowthPerLevel = 0.00800000037997961
+	#Duration of erosion effect in ticks
+	# Default: 160
+	# Range: > 1
+	deathSmokeErosionDuration = 160
+	#Health to health transfer rate per level
+	# Default: 0.33
+	# Range: 0.0 ~ 2.147483647E9
+	deathSmokeHealthToHealthTransferRatePerLevel = 0.33
+	#Health to mana transfer rate per level
+	# Default: 0.66
+	# Range: 0.0 ~ 2.147483647E9
+	deathSmokeHealthToManaTransferRatePerLevel = 0.66
+
+["Crimson Moon Spell"]
+	#Whether Crimson Moon can be obtained from loot chests
+	"Crimson Moon can be found in loot chests" = true
+	#Base duration of Crimson Moon in ticks
+	# Default: 640
+	# Range: > 0
+	crimsonMoonDurationBasicTicks = 640
+	#Duration growth per spell level in ticks
+	# Default: 160
+	# Range: > 0
+	crimsonMoonDurationGrowthPerLevel = 160
+	#Basic heal ratio from damage dealt from Moon Frenzy Marks
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyDamageHealBasicRatio = 0.10000000149011612
+	#Heal ratio growth per spell level from Moon Frenzy Marks
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyDamageHealRatioGrowthPerLevel = 0.05
+	#Base attack damage boost ratio of Moon Frenzy Effect
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyAttackDamageBoostBasicRatio = 0.10000000149011612
+	#Attack damage boost growth per level of Moon Frenzy Effect
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyAttackDamageBoostRatioGrowthPerLevel = 0.05
+	#Base attack speed boost ratio of Moon Frenzy Effect
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyAttackSpeedBoostBasicRatio = 0.10000000149011612
+	#Attack speed boost growth per level of Moon Frenzy Effect
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyAttackSpeedBoostRatioGrowthPerLevel = 0.05
+	#Base Blood Spell Power boost ratio of Moon Frenzy Effect
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyBloodPowerBoostBasicRatio = 0.10000000149011612
+	#Blood Spell Power boost growth per level of Moon Frenzy Effect
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	MoonFrenzyBloodPowerBoostRatioGrowthPerLevel = 0.05
+
+["Sinfire Embrace Spell"]
+	#Whether Sinfire Embrace can be obtained from loot chests
+	sinfireEmbraceAllowLooting = true
+	#Base duration of Sinfire Embrace in seconds
+	# Default: 8
+	# Range: > 0
+	sinfireEmbraceDurationBasicSeconds = 8
+	#Sinfire Embrace Duration growth per spell level in seconds
+	# Default: 4
+	# Range: > 0
+	sinfireEmbraceDurationGrowthPerLevel = 4
+	#Base heal ratio from Sinfire Embrace Effect
+	# Default: 0.1
+	# Range: 0.0 ~ 2.147483647E9
+	sinfireEmbraceHealBasicRatio = 0.1
+	#Heal ratio growth per level from Sinfire Embrace Effect
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	sinfireEmbraceHealRatioGrowthPerLevel = 0.05
+	#Base Fire Spell Power boost ratio from Sinfire Embrace Effect
+	# Default: 0.1
+	# Range: 0.0 ~ 2.147483647E9
+	sinfireEmbraceEffectFirePowerBoostBasicRatio = 0.1
+	#Fire Spell Power boost growth per level
+	# Default: 0.05
+	# Range: 0.0 ~ 2.147483647E9
+	sinfireEmbraceEffectFirePowerBoostRatioGrowthPerLevel = 0.05
+	#Armor loss ratio (negative means loss)
+	# Default: -0.6
+	# Range: -1.0 ~ 0.0
+	sinfireEmbraceEffectArmorLossRatio = -0.6
+
+["The Frozen World Spell"]
+	#Whether The Frozen World can be obtained from loot chests
+	frozenWorldAllowLooting = true
+	#Whether The Frozen World can freeze the world (generating snow, extinguishing fire, turning water and lava into frosted ice and obsidian)
+	frozenWorldFreezesWorld = true
+	#Max Health Damage from The Frozen World per Level
+	# Default: 0.07999999821186066
+	# Range: 0.0 ~ 2.147483647E9
+	frozenWorldMaxHealthDamageRatioPerLevel = 0.07999999821186066
+	#Duration (in ticks) of the frozen effect applied to entities in the inner circle of The Frozen World
+	# Default: 200
+	# Range: > 0
+	frozenWorldFrozenEffectDurationToEntityInInnerCircle = 200
+	#Duration (in ticks) of the Ice Fog spawned by The Frozen World spell
+	# Default: 160
+	# Range: > 1
+	frozenWorldIceFogDuration = 160
+	#The ratio of the Frozen World's inner circle radius (stronger frozen effect).d Range: 0.0 - 1.0
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	frozenWorldInnerCircleRatio = 0.3
+
+["Icy Comet Rain Spell"]
+	#Whether Ice Comet Rain can be obtained from loot chests
+	iceCometRainAllowLooting = true
+	#Max Count of Ice Comets Per Tick
+	# Default: 12
+	# Range: 2 ~ 100
+	iceCometRainMaxCountPerTick = 12
+	#Max Radius of Ice Comet Rain Area
+	# Default: 12.0
+	# Range: 4.0 ~ 114.0
+	iceCometRainMaxRadius = 12.0
+	#Damage = Icy Comet Rain Spell Power * this
+	# Default: 0.4000000059604645
+	# Range: 0.0 ~ 2.147483647E9
+	icyCometRainDamageRatioOfSpellPower = 0.4000000059604645
+
+["Nero's Holy Ray Spell"]
+	#Whether Nero's Holy Ray can be obtained from loot chests
+	holyRayAllowLooting = true
+	#The maximum range (in blocks) of Nero's Holy Ray
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	holyRayRange = 32.0
+	#The maximum ratio of target's max health that can be added as extra damage (cap)
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	holyRayExtraMaxHealthDamageRatioCap = 0.3
+	#The maximum absolute extra damage value that Nero's Holy Ray can deal (hard cap)
+	# Default: 50.0
+	# Range: 0.0 ~ 2.147483647E9
+	holyRayExtraMaxHealthDamageCap = 50.0
+	# Default: 0.1
+	# Range: 0.0 ~ 2.147483647E9
+	holyRayExtraRatioDamageToUndead = 0.1
+
+["Holy Lance Spell"]
+	#Whether Holy Lance can be obtained from loot chests
+	holyLanceAllowLooting = true
+	# Default: 0.1
+	# Range: 0.0 ~ 2.147483647E9
+	holyLanceExtraRatioDamageToUndead = 0.1
+
+["Holy Bell Spell"]
+	#Whether Holy Bell can be obtained from loot chests
+	holyBellAllowLooting = true
+	#Max Duration (in ticks) of the Holy Golden Bell Entity
+	# Default: 480
+	# Range: > 60
+	holyBellDurationCap = 480
+	#Max Radius (in blocks) of the Holy Golden Bell Entity
+	# Default: 12.0
+	# Range: 2.0 ~ 64.0
+	holyBellRadiusCap = 12.0
+	#Multiplier for non-downward movement speed under Holy Bell Suppression (0.1 = 10% of original, default 0.1)
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	holyBellSuppressionMovementSpeedRatio = 0.1
+	#Attack damage reduction ratio under Holy Bell Suppression (0.2 = -20%, default 0.2)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	holyBellSuppressionATKLowerRatio = 0.2
+	#Attack speed reduction ratio under Holy Bell Suppression (0.2 = -20%, default 0.2)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	holyBellSuppressionSPDLowerRatio = 0.2
+
+["The Mundus Spell"]
+	#Whether The Mundus can be obtained from loot chests
+	mundusAllowLooting = false
+	#Whether The Mundus will Flashbanged Teleporting player
+	mundusFlashbanged = true
+
+["Chaos Cradle Spell"]
+	#Whether Cradle of The Chaos can be obtained from loot chests
+	chaosCradleAllowLooting = true
+	#Base duration of Abyssal Mud in ticks (b of y = a * spellLevel + b)
+	# Default: 120
+	# Range: > 20
+	chaosCradleAbyssalMudBaseDuration = 120
+	#Duration Growth per spellLevel of Abyssal Mud in ticks (a of y = a * spellLevel + b)
+	# Default: 120
+	# Range: > 0
+	chaosCradleAbyssalMudDurationPerLevel = 120
+
+["Summon Blaze/ \"Gate of Truth Party\" Spell"]
+	#Whether Summon Blaze can be obtained from loot chests
+	summonBlazeAllowLooting = true
+	#Senator's Extra Health Ratio
+	# Default: 0.8
+	# Range: 0.0 ~ 2.147483647E9
+	summonBlazeSenatorExtraHealth = 0.8
+
+["The Abyss of Illusion Spell"]
+	#Whether Illusion: Be Fear can be obtained from loot chests
+	illusionFearAllowLooting = true
+	#Whether Illusion: Be Crazy can be obtained from loot chests
+	illusionCrazyAllowLooting = true
+	# Default: 8.0
+	# Range: 1.0 ~ 128.0
+	illusionCrazySearchRadius = 8.0
+
+["Young For You Spell"]
+	#Whether Young For You can be obtained from loot chests
+	youngForYouAllowLooting = true
+
+["Black Flame Wings (Fake) Spell"]
+	#Whether Black Flame Wings (Fake) can be obtained from loot chests
+	blackFlameWingsAllowLooting = true
+
+["Black Fireball/ Fireball of Chaos Spell"]
+	#Whether Black Fireball/ Fireball of Chaos can be obtained from loot chests
+	blackFireballAllowLooting = true
+
+[Weapons]
+	# Default: 9.0
+	# Range: 0.0 ~ 2.147483647E9
+	iceJudgementATK = 9.0
+	# Default: -2.0
+	# Range: -10.0 ~ 0.0
+	iceJudgementSPD = -2.0
+	# Default: 7.0
+	# Range: 0.0 ~ 2.147483647E9
+	captainGregScytheATK = 7.0
+	# Default: -2.0
+	# Range: -10.0 ~ 0.0
+	captainGregScytheSPD = -2.0
+	# Default: 5.0
+	# Range: 0.0 ~ 2.147483647E9
+	captainGregLanceATK = 5.0
+	# Default: -1.3300000429153442
+	# Range: -10.0 ~ 0.0
+	captainGregLanceSPD = -1.3300000429153442
+
+["Made In Heaven Spell"]
+	#Time acceleration factors per spell level. Example: [1, 20, 40, 120]
+	#Note: the first '1' is a base value (no acceleration) and will not be applied.
+	timeAccelFactors = [1, 20, 40, 120]
+	#Time acceleration factors per spell level. Example: [1, 20, 40, 120]
+	#Note: the first '1' is a base value (no acceleration) and will not be applied.
+	timeAccelFactorsReal = [1, 20, 40, 120]
+
+[MISC]
+	#Whether Pontifical Knight Medal can drop from entities
+	entityDropKnightMedal = true
+	#Whether Wintermoon Heart can drop from entities
+	entityDropWintermoonHeart = true
+	#Chance of dropping Knight Medal or Wintermoon Heart without killing with Holy or Ice Spell
+	# Default: 0.33000001311302185
+	# Range: 0.0 ~ 1.0
+	entityDropCuriosItemPossibility = 0.33000001311302185
+	#Chance of dropping Captain Greg Donut with certain Weapons
+	# Default: 0.009999999776482582
+	# Range: 0.0 ~ 1.0
+	entityDropDonutPossibility = 0.009999999776482582
+
+["Abyss and Priest"]
+	#Whether certain spells (like Abyssal/Eldritch spells from this mod) anger Priests
+	abyssAngerPriest = false
+	#Spells that will anger Priests
+	spellsPriestDontLike = ["peyroscythe:death_smoke", "peyroscythe:black_flame_wings", "peyroscythe:black_fireball", "peyroscythe:chaos_cradle"]

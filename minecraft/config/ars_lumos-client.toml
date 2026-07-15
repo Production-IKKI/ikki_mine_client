@@ -1,0 +1,33 @@
+#Press F3+T after changing this config
+#Disabling a category disables everything in that category
+enable_all = true
+#Advanced feature, use this to specifically disable textures
+#Open the mod jar as zip and find paths under assets/ars_lumos/textures/configurable
+#Example: "ars_nouveau:textures/block/blue_archwood_log_2_e"
+disabled_textures = []
+enable_archwood = true
+#Only affects nether-style portals, use a dominion wand to switch
+enable_warp_portals = true
+enable_source_jars = true
+
+[resource_packs]
+	#Disable this to override resource pack detection, then use the options below
+	detect_resource_packs = true
+	#For Ars Loafers, irrelevant if resource pack detection is enabled
+	use_loafers = false
+	#For Ars Nouveau Refresh, irrelevant if resource pack detection is enabled
+	use_refresh = false
+
+[archwood]
+	enable_logs = true
+	enable_weald_walkers = true
+	enable_weald_waddlers = true
+	enable_ritual_tablets = true
+	#For Ars Nouveau Flavors & Delights
+	enable_bark = true
+	enable_cascading = true
+	enable_flourishing = true
+	enable_vexing = true
+	enable_blazing = true
+	#For Ars Elemental
+	enable_flashing = true

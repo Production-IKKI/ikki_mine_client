@@ -1,0 +1,16 @@
+filename = 'easy_npc-neoforge-1.21.1-6.19.0.jar'
+name = 'Easy NPC: Core'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '15008277cac1b69e981e9cefb264de2e7ee4245cd77663beed8e7a1accd8794f1f85edee3f467c55c51f7ca9426ddb003419cb17957fe38708c5c43f6bf94e6d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Epm6R3P2/versions/PTMksdcg/easy_npc-neoforge-1.21.1-6.19.0.jar'
+
+[update.modrinth]
+mod-id = 'Epm6R3P2'
+version = 'PTMksdcg'

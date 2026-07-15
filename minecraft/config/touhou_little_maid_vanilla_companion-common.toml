@@ -1,0 +1,4 @@
+#Maids' danmaku attack charging time (ticks). Bigger number makes the shooting frequency lower.
+# Default: 35
+# Range: > 20
+DanmakuChargingTime = 35

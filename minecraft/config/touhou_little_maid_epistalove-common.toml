@@ -1,0 +1,29 @@
+[mail_delivery]
+	#Maximum radius (blocks) for maids to search for a mailbox; larger radius increases performance cost
+	# Default: 16
+	# Range: 4 ~ 32
+	mailbox_search_radius = 16
+
+[safety_evaluation]
+	#Minimum safety score (0–100) required for a mailbox to be considered usable
+	# Default: 60
+	# Range: 0 ~ 100
+	mailbox_min_safety_score = 60
+	#Area hazard threshold (0–100); areas above this value are considered too dangerous (lower = more cautious)
+	# Default: 60
+	# Range: 0 ~ 100
+	area_hazard_threshold = 60
+	#Safety score threshold (0–100) for high-quality mailboxes (preferred when the master is at home)
+	# Default: 80
+	# Range: 0 ~ 100
+	high_quality_threshold = 80
+
+[pathfinding]
+	#Minimum required percentage (0–100) of safe nodes on a path; higher = safer paths
+	# Default: 65
+	# Range: 0 ~ 100
+	path_safety_percentage = 65
+	#Maximum allowed number of consecutive dangerous nodes; paths exceeding this count will be rejected
+	# Default: 2
+	# Range: 0 ~ 10
+	max_consecutive_dangerous = 2

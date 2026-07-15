@@ -1,0 +1,4 @@
+#Should villagers trade Easter's Delight items? (May reduce chances of other trades appearing)
+enable_villager_trades = true
+#Should Dyed Egg variations be included in the Creative Mode tab?
+enable_dyed_eggs_in_creative_mode = true

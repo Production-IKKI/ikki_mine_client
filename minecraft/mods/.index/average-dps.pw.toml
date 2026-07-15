@@ -1,0 +1,16 @@
+filename = 'averagedps-neo-1.21.1-1.1.7.jar'
+name = 'Epic RPG: Average DPS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1f1d6cbcf2a2ef57130aa77bf9d07bb3049cea862db441f7fadf7bbd4cffc108ef8c7b98dea4d49e0d56fe9cd3c19a4d9b5b264b123b72691e63ba4b5f5d4920'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IKMWXPqS/versions/AkAE6sCM/averagedps-neo-1.21.1-1.1.7.jar'
+
+[update.modrinth]
+mod-id = 'IKMWXPqS'
+version = 'AkAE6sCM'

@@ -1,0 +1,16 @@
+filename = 'UntranslatedItems-neoforge-1.21-1.10.jar'
+name = 'Untranslated Items'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '79a15dd5b7574d6641fc18b67f80bb974c4fb9dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5574485
+project-id = 401770

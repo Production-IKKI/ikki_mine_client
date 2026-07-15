@@ -1,0 +1,16 @@
+filename = 'l2hostility-3.0.18.jar'
+name = 'L2 Hostility'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd97219b0bfcaeb9da754afe5bd0c05852f46c6d240b4660631e929fdcb532ad1a7de56404c80519e0202b367d32ba242074fd2a3d8040942f7accb03dcf2203f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CbV689EN/versions/hsGoGiGk/l2hostility-3.0.18.jar'
+
+[update.modrinth]
+mod-id = 'CbV689EN'
+version = 'hsGoGiGk'

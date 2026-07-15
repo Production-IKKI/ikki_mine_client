@@ -1,0 +1,7 @@
+#[i] These are ONLY starting defaults for NEW worlds.
+#[i] After a world is created, use their corresponding gamerules.
+[gameplay]
+	#Elixir of Vitality hearts limit (in HEARTS, not HP).
+	elixirHeartsCap = 20
+	#Whether piglins/brutes can spawn wearing special equipment.
+	doPiglinEquipped = true

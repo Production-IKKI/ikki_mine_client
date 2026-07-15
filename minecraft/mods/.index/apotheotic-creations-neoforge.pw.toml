@@ -1,0 +1,16 @@
+filename = 'apotheoticcreation-1.0.1-neoforge-1.21.1.jar'
+name = 'Apotheotic Creations'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bcf820ef5128e5e7f4d9b3fe682a4ed4ea120f89'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8090227
+project-id = 1543430

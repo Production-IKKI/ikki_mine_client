@@ -1,0 +1,95 @@
+#Psitweaks Common Configuration
+[spells]
+	#Psitweaks攻撃スペル全体に適用する一律倍率
+	#Global multiplier for all Psitweaks offensive spell damage
+	# Default: 1.0
+	# Range: 0.1 ~ 100.0
+	globalSpellPowerMultiplier = 1.0
+
+	#Spell unlock requirements
+	[spells.unlocks]
+		#特定スペルの利用に解禁を要求するかどうか
+		#Whether configured spells require unlock progression in Spell Programmer
+		requireSpellUnlocks = true
+
+	#Molecular Divider Settings
+	[spells.molecular_divider]
+		#分子ディバイダーのダメージ倍率
+		#Damage multiplier for Molecular Divider
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Phonon Maser Settings
+	[spells.phonon_maser]
+		#フォノンメーザーのダメージ倍率
+		#Damage multiplier for Phonon Maser
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Aqua Cutter Settings
+	[spells.aqua_cutter]
+		#アクアカッターのダメージ倍率
+		#Damage multiplier for Aqua Cutter
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Blaze Ball Settings
+	[spells.blaze_ball]
+		#ブレイズボールのダメージ倍率
+		#Damage multiplier for Blaze Ball
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Active Air Mine Settings
+	[spells.active_air_mine]
+		#作動式: 能動空中機雷 のダメージ倍率
+		#Damage multiplier for Trick: Active Air Mine
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Flare Circle Settings
+	[spells.flare_circle]
+		#作動式: フレアサークル の威力倍率（与ダメージ倍率）
+		#Power (damage) multiplier for Trick: Flare Circle
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Ice Circle Settings
+	[spells.ice_circle]
+		#作動式: アイスサークル の威力倍率（与ダメージ倍率）
+		#Power (damage) multiplier for Trick: Ice Circle
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+	#Radiation Injection Settings
+	[spells.radiation_injection]
+		#作動式: 放射線注入 の被ばく量倍率
+		#Radiation amount multiplier for Trick: Radiation Injection
+		# Default: 1.0
+		# Range: 0.0 ~ 1000000.0
+		radiationMultiplier = 1.0
+
+	#Guillotine Settings
+	[spells.guillotine]
+		#作動式: ギロチン のダメージ倍率
+		#Damage multiplier for Trick: Guillotine
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
+#Mekanism Integration Settings
+[mekanism]
+	#ガス燃焼発電機の内部エネルギー容量オーバーライド（J）
+	#-1に設定するとMekanismのデフォルト動作（HydrogenEnergyDensityを基準）を使用します。
+	#Gas-Burning Generator internal energy capacity override in Joules.
+	#Set to -1 to use Mekanism default behavior (HydrogenEnergyDensity based).
+	# Default: 2000000
+	# Range: -1 ~ 9223372036854775807
+	gasBurningGeneratorEnergyCapacity = 2000000

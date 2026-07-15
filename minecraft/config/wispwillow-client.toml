@@ -1,0 +1,10 @@
+[terminal]
+	#Default sort mode for the terminal
+	#Allowed Values: TYPE, NAME, AMOUNT, TAG
+	sortMode = "NAME"
+	#Sort ascending
+	sortAsc = true
+	#Keep EMI button enabled by default
+	emiSync = false
+	#When terminal search changes, also set EMI search
+	syncEmiSearch = true

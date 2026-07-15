@@ -1,0 +1,5 @@
+multilingualItemSearch = true
+fallbacks = ["en_us"]
+previousFallbacks = ["en_us"]
+language = "ja_jp"
+previousLanguage = ""
