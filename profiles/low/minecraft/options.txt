@@ -1,11 +1,11 @@
-ao:false
+ao:true
 biomeBlendRadius:0
 enableVsync:false
 entityDistanceScaling:0.75
 entityShadows:false
-fovEffectScale:0.6055470144812537
+fovEffectScale:0.605547
 glintSpeed:0.5
-glintStrength:0.704225352112676
+glintStrength:0.704225
 prioritizeChunkUpdates:0
 gamma:0.5
 graphicsMode:0
@@ -15,6 +15,6 @@ particles:2
 renderClouds:"false"
 renderDistance:6
 simulationDistance:5
-screenEffectScale:0.7077464788732394
+screenEffectScale:0.707746
 bobView:true
 menuBackgroundBlurriness:0
