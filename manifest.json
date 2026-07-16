@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-16T15:12:08+00:00",
- "commit": "b0357ee107b9efed80056bd7b41b4f721eef4145",
+ "generated": "2026-07-16T17:54:31+00:00",
+ "commit": "badda8745f44da02831e5358df75587292339942",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -11243,7 +11243,7 @@
    "size": 40376
   },
   "profiles/high/minecraft/config/sodium-extra-options.json": {
-   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "sha256": "26167b166376df9fdfe39284124d594438df99cb395b81d0490fdb1e964a2810",
    "size": 1584
   },
   "profiles/high/minecraft/config/sodium-options.json": {
@@ -11255,8 +11255,8 @@
    "size": 107
   },
   "profiles/high/minecraft/options.txt": {
-   "sha256": "544073660c977b5529a1fc6e88902202bcca2496677ee2eab0c4ce0296ecd067",
-   "size": 394
+   "sha256": "bd2000e5f30efab952292b174c2250c9ef7da56dbe88e557748072302b68c63e",
+   "size": 362
   },
   "profiles/high/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
    "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
@@ -11271,15 +11271,15 @@
    "size": 298
   },
   "profiles/low/minecraft/config/lambdynlights.toml": {
-   "sha256": "3dcee7298d227a20c208dd8e964b41ec22ff9860ac5612843a10a66b820ab970",
-   "size": 40374
+   "sha256": "363c1bb746c295ead4b05ae6343baac739f69f9a96ebe1dcce6c1179f8c0a192",
+   "size": 40375
   },
   "profiles/low/minecraft/config/sodium-extra-options.json": {
    "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
    "size": 1584
   },
   "profiles/low/minecraft/config/sodium-options.json": {
-   "sha256": "6f3f7debff90e705be828eb601c673765398d7a4a1bb22863329fc2a2eb4b1d6",
+   "sha256": "8b5c6e2fda81b3973df8dd655d376e98540faa69cd0bf17584ef02a1b23d6af5",
    "size": 680
   },
   "profiles/low/minecraft/config/sodium-shadowy-path-blocks-options.json": {
@@ -11287,16 +11287,16 @@
    "size": 107
   },
   "profiles/low/minecraft/options.txt": {
-   "sha256": "6c01772e29bbf56341989ba345641297a7b66b9e266f4ceef677c18c63ff1c40",
-   "size": 397
+   "sha256": "642577abd6b54e791fc6ef7a255d2934d7611a99fcf0403942ba31af329580c0",
+   "size": 367
   },
   "profiles/low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
    "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
    "size": 99
   },
   "version.json": {
-   "sha256": "99add1baece0616de53a0ec74248bafaff4d48029d3eca92c9207ecf217214c6",
-   "size": 582
+   "sha256": "4a5887e4ae3c542b00ef26113942b6b3eb6999bbc68ee57259d7f4d92aca367a",
+   "size": 732
   }
  }
 }
