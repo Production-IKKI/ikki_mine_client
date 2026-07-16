@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-15T14:30:47+00:00",
- "commit": "8f15d508a6c8604b4879e3851e5ece11c580e20e",
+ "generated": "2026-07-16T15:12:08+00:00",
+ "commit": "b0357ee107b9efed80056bd7b41b4f721eef4145",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -11230,9 +11230,73 @@
    "sha256": "05ea336d64d5da99ddc608ff7d49d5a57ab522d3684ad5a3fd55a02ad5330775",
    "size": 983
   },
+  "profiles/high/minecraft/config/DistantHorizons.toml": {
+   "sha256": "7ea25df9dab25d8ebf3a71efaa4c755ef2594688580ebeb27514e3eecbd963a1",
+   "size": 32105
+  },
+  "profiles/high/minecraft/config/iris.properties": {
+   "sha256": "7e9b011fdb1ddd3c05e0351a58a788499548d5752b0dd7c41e5c3cbdd78fa5d7",
+   "size": 297
+  },
+  "profiles/high/minecraft/config/lambdynlights.toml": {
+   "sha256": "bdc493e403f274fc1aee3b99e11c4ffb264ce327967ac44daf0cf6cd662c92a9",
+   "size": 40376
+  },
+  "profiles/high/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "size": 1584
+  },
+  "profiles/high/minecraft/config/sodium-options.json": {
+   "sha256": "6f3f7debff90e705be828eb601c673765398d7a4a1bb22863329fc2a2eb4b1d6",
+   "size": 680
+  },
+  "profiles/high/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+   "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
+   "size": 107
+  },
+  "profiles/high/minecraft/options.txt": {
+   "sha256": "544073660c977b5529a1fc6e88902202bcca2496677ee2eab0c4ce0296ecd067",
+   "size": 394
+  },
+  "profiles/high/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
+   "size": 99
+  },
+  "profiles/low/minecraft/config/DistantHorizons.toml": {
+   "sha256": "c8f6dfd3e1416fd3c6d3846b0acd6a505e42e9db8f58a2b250d217b3648463d3",
+   "size": 32102
+  },
+  "profiles/low/minecraft/config/iris.properties": {
+   "sha256": "d57172594189e9eb9b50374f757ea94f721fbe19a1f71043a87886f6add7be40",
+   "size": 298
+  },
+  "profiles/low/minecraft/config/lambdynlights.toml": {
+   "sha256": "3dcee7298d227a20c208dd8e964b41ec22ff9860ac5612843a10a66b820ab970",
+   "size": 40374
+  },
+  "profiles/low/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "size": 1584
+  },
+  "profiles/low/minecraft/config/sodium-options.json": {
+   "sha256": "6f3f7debff90e705be828eb601c673765398d7a4a1bb22863329fc2a2eb4b1d6",
+   "size": 680
+  },
+  "profiles/low/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+   "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
+   "size": 107
+  },
+  "profiles/low/minecraft/options.txt": {
+   "sha256": "6c01772e29bbf56341989ba345641297a7b66b9e266f4ceef677c18c63ff1c40",
+   "size": 397
+  },
+  "profiles/low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
+   "size": 99
+  },
   "version.json": {
-   "sha256": "f9e406d0136631a117387dc2b9ccd644b958081eacac4addf280236e849594bb",
-   "size": 317
+   "sha256": "99add1baece0616de53a0ec74248bafaff4d48029d3eca92c9207ecf217214c6",
+   "size": 582
   }
  }
 }
