@@ -658,7 +658,7 @@ _version = 4
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "LOW"
+				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -667,7 +667,7 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 100
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 

@@ -619,7 +619,7 @@ _version = 4
 				# 
 				# Lowest Quality: CHUNK
 				# Highest Quality: BLOCK
-				maxHorizontalResolution = "TWO_BLOCKS"
+				maxHorizontalResolution = "BLOCK"
 				#
 				# If true LODs will fade away as you get closer to them. 
 				# If false LODs will cut off abruptly at a set distance from the camera. 
@@ -707,7 +707,7 @@ _version = 4
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "DOUBLE_PASS"
+				vanillaFadeMode = "SINGLE_PASS"
 
 			[client.advanced.graphics.fog]
 				#
