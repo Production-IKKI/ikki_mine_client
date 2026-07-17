@@ -542,10 +542,10 @@ _version = 4
 				noiseDropoff = 1024
 				#
 				# How many steps of noise should be applied to LODs?
-				noiseSteps = 4
+				noiseSteps = 10
 				#
 				# How intense should the noise should be?
-				noiseIntensity = "0.08"
+				noiseIntensity = "0.03"
 
 			[client.advanced.graphics.experimental]
 				#
@@ -685,7 +685,7 @@ _version = 4
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "LOW"
+				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
