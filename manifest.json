@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-16T17:54:31+00:00",
- "commit": "badda8745f44da02831e5358df75587292339942",
+ "generated": "2026-07-17T09:27:24+00:00",
+ "commit": "73065b4dd107f5bd641996f115421a562c457d54",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -67,8 +67,8 @@
    "size": 10347
   },
   "minecraft/config/DistantHorizons.toml": {
-   "sha256": "190d9f2a4e740c16b73d0bb13fcc1b3b163a9d643beea3aa00a90045bd24ca1f",
-   "size": 32941
+   "sha256": "716b19b9f925afb6c35e665bedfc5259b26d8e10025df883f1c0df24fbe1659f",
+   "size": 32936
   },
   "minecraft/config/EndRemastered-NeoForge/Eyes/black_eye.json": {
    "sha256": "0ce694b7842011f30705cbadc1140a105e15eabe5983dd62605d82e57fefd201",
@@ -2435,7 +2435,7 @@
    "size": 31
   },
   "minecraft/config/iris.properties": {
-   "sha256": "98ef5af0e201213965583d554e0b1eb8b5707a7eea1c1e43767ae34c29bcfc0e",
+   "sha256": "860ac55999d390787ca67aef72709370b23568242d07d503d39ca84ab4b2ab8f",
    "size": 306
   },
   "minecraft/config/irons_restrictions-common.toml": {
@@ -11263,8 +11263,8 @@
    "size": 99
   },
   "profiles/low/minecraft/config/DistantHorizons.toml": {
-   "sha256": "c8f6dfd3e1416fd3c6d3846b0acd6a505e42e9db8f58a2b250d217b3648463d3",
-   "size": 32102
+   "sha256": "b095a1545ce85d453d68d79e23080eba91d44d8fc26499299fc0836a2d93e289",
+   "size": 32105
   },
   "profiles/low/minecraft/config/iris.properties": {
    "sha256": "d57172594189e9eb9b50374f757ea94f721fbe19a1f71043a87886f6add7be40",
@@ -11275,7 +11275,7 @@
    "size": 40375
   },
   "profiles/low/minecraft/config/sodium-extra-options.json": {
-   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "sha256": "26167b166376df9fdfe39284124d594438df99cb395b81d0490fdb1e964a2810",
    "size": 1584
   },
   "profiles/low/minecraft/config/sodium-options.json": {
@@ -11287,8 +11287,8 @@
    "size": 107
   },
   "profiles/low/minecraft/options.txt": {
-   "sha256": "642577abd6b54e791fc6ef7a255d2934d7611a99fcf0403942ba31af329580c0",
-   "size": 367
+   "sha256": "2f1504d45b3254a9547e3effe9ab1a3d269187bccc3399fa8c2a1737819ef4e5",
+   "size": 366
   },
   "profiles/low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
    "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
