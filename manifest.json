@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-17T09:27:24+00:00",
- "commit": "73065b4dd107f5bd641996f115421a562c457d54",
+ "generated": "2026-07-17T16:10:17+00:00",
+ "commit": "4432791a51157a995117d9d2dd34e322286a7c26",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -67,8 +67,8 @@
    "size": 10347
   },
   "minecraft/config/DistantHorizons.toml": {
-   "sha256": "716b19b9f925afb6c35e665bedfc5259b26d8e10025df883f1c0df24fbe1659f",
-   "size": 32936
+   "sha256": "d4c4f720202bb721b46c2915099fe81896121e0e4b50a31992937d0a8ae423b0",
+   "size": 32940
   },
   "minecraft/config/EndRemastered-NeoForge/Eyes/black_eye.json": {
    "sha256": "0ce694b7842011f30705cbadc1140a105e15eabe5983dd62605d82e57fefd201",
@@ -2435,7 +2435,7 @@
    "size": 31
   },
   "minecraft/config/iris.properties": {
-   "sha256": "860ac55999d390787ca67aef72709370b23568242d07d503d39ca84ab4b2ab8f",
+   "sha256": "3e72351b3b5e3eb1fbbb2bdaf4deed0ec60a5c530996630265236bec7ce7dffe",
    "size": 306
   },
   "minecraft/config/irons_restrictions-common.toml": {
