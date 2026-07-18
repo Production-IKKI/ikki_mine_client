@@ -1,14 +1,14 @@
 {
- "generated": "2026-07-17T16:10:17+00:00",
- "commit": "4432791a51157a995117d9d2dd34e322286a7c26",
+ "generated": "2026-07-18T15:19:07+00:00",
+ "commit": "fa17f1b59df7f3f9f7f72048328eb4f4081a3453",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
    "size": 12826
   },
   "instance.cfg": {
-   "sha256": "4857f9e2e7f9a43873e38372c6adf10a2007df4bcf92f1cebbf10d43f2918d7d",
-   "size": 674
+   "sha256": "ebf0d8b0303502fb116296067ba38100d2bb43e7da86e0d75f8300ba47345643",
+   "size": 703
   },
   "minecraft/armourers_workshop/skin-library/downloads/01179 - Hakai Barrier.armour": {
    "sha256": "b9bcfea66ac1f5e0f50fb9a8b4b7e27203b90e44bff8eeaf8eaf4ff8ec4b5c66",
@@ -2435,7 +2435,7 @@
    "size": 31
   },
   "minecraft/config/iris.properties": {
-   "sha256": "3e72351b3b5e3eb1fbbb2bdaf4deed0ec60a5c530996630265236bec7ce7dffe",
+   "sha256": "77568cd6852c3167e2be3b2929dd5b9e8593de290672e60b7419c5e3a52c5a37",
    "size": 306
   },
   "minecraft/config/irons_restrictions-common.toml": {
@@ -6087,7 +6087,7 @@
    "size": 30687
   },
   "minecraft/options.txt": {
-   "sha256": "0aeb3f3e264ef715b84b425fec226e6a11f11ff1a194b216c51d5cd9106cc099",
+   "sha256": "d5b6e1fdda522bc8adaad99e0107e49614863f285cb36b71f8eabf8b80434924",
    "size": 22845
   },
   "minecraft/resourcepacks/ikki_boss_client.zip": {
@@ -11227,8 +11227,8 @@
    "size": 1234
   },
   "mmc-pack.json": {
-   "sha256": "05ea336d64d5da99ddc608ff7d49d5a57ab522d3684ad5a3fd55a02ad5330775",
-   "size": 983
+   "sha256": "da963b320ed89e85644451abfcd252f8cda724e23697629b950522b465aeb2c9",
+   "size": 947
   },
   "profiles/high/minecraft/config/DistantHorizons.toml": {
    "sha256": "7ea25df9dab25d8ebf3a71efaa4c755ef2594688580ebeb27514e3eecbd963a1",
@@ -11295,8 +11295,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "4a5887e4ae3c542b00ef26113942b6b3eb6999bbc68ee57259d7f4d92aca367a",
-   "size": 732
+   "sha256": "af345db44c660f13584bb362556a19ec73d68bdd6087ac8cef16347ae3a82757",
+   "size": 869
   }
  }
 }
