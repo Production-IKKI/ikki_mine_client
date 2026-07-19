@@ -99,7 +99,7 @@
 		scale = 4.0
 		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing when set via commands.
 		#Default Value: true
-		respect_hide_particles = true
+		respect_hide_particles = false
 		#Maximum amount of status effects rendered in a single column.
 		#Default Value: 255
 		# Default: 255
