@@ -6,3 +6,12 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 moe.plushie.armourers_workshop.core.client.gui.widget.ContainerMenuScreen {
 }
 
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

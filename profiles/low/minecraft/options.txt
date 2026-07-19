@@ -10,10 +10,10 @@ prioritizeChunkUpdates:0
 gamma:0.5
 graphicsMode:0
 maxFps:60
-mipmapLevels:0
+mipmapLevels:3
 particles:2
 renderClouds:"false"
-renderDistance:6
+renderDistance:5
 simulationDistance:5
 screenEffectScale:0.707746
 bobView:true
