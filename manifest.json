@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-19T18:39:58+00:00",
- "commit": "25161f689a442210ccf8daf48c40d97e8f750985",
+ "generated": "2026-07-22T16:33:10+00:00",
+ "commit": "924ba5375fef781cf7d575bd5ba1e8a751eb66b0",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -1215,7 +1215,7 @@
    "size": 728
   },
   "minecraft/config/chloride-client.json": {
-   "sha256": "fa12c95d395be0f3a42146e92763c8a77ad42e003adf18e324ee2a0330e97a51",
+   "sha256": "4b42d3539186ff51db5bbe6ad0ff9009a59ba98a37da9a511c68a1725caeede0",
    "size": 1926
   },
   "minecraft/config/clean_tooltips-client.toml": {
@@ -2611,7 +2611,7 @@
    "size": 262
   },
   "minecraft/config/l2configs/l2hostility-client.toml": {
-   "sha256": "48257ddc13c561ef7e77f4e579a8cffb278353e4f3bbf67b6eccc42e3611c238",
+   "sha256": "09a63aa42bc04f93cd18cb05fb7e7a3faf705e5098a8aa60d51876402a15a0ee",
    "size": 575
   },
   "minecraft/config/l2configs/l2hostility-server.toml": {
@@ -2727,8 +2727,8 @@
    "size": 105
   },
   "minecraft/config/modernfix-mixins.properties": {
-   "sha256": "db7fa25023a91144176b732b4e094020a34d1b2f7fb3718dbf6720e9e1e8eea8",
-   "size": 5612
+   "sha256": "a00b55af260760babbe1c136f894dcf4bf0b2a73ea4e575fa2c9948233629fec",
+   "size": 5578
   },
   "minecraft/config/modonomicon-client.toml": {
    "sha256": "f7301ac5c174fd4958b6a7bbca7d6211da2f4ac83f85ef87e55461a2110f9044",
@@ -3719,8 +3719,8 @@
    "size": 446
   },
   "minecraft/kubejs/config/web_server.json": {
-   "sha256": "8469d1461be1dbf2d71037fd6252a9c67c732937a4f978381c68c26fe1ee861b",
-   "size": 120
+   "sha256": "9b5cbabdb8f2834c38ff1eb9ed4d93c11348551ba9d76cd0ab17e59e04bb64c4",
+   "size": 121
   },
   "minecraft/kubejs/server_scripts/main.js": {
    "sha256": "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f",
@@ -4833,6 +4833,10 @@
   "minecraft/mods/ascended_quark-1.21.1-1.1.6-beta.jar": {
    "sha256": "5ac47a3ec479149053e0d6c651986c7b3ee25e6bea241132df1ba6972229e883",
    "size": 3666060
+  },
+  "minecraft/mods/automobility-0.5.0.h+1.21.1-neoforge.jar": {
+   "sha256": "222d5d46d2bce2053def8af0859f9c5fe030a2c58d3fbaf6bd28af5442f12f05",
+   "size": 1331432
   },
   "minecraft/mods/averagedps-neo-1.21.1-1.1.7.jar": {
    "sha256": "2a3d1db8bf55a228a44b8021abbf8243b42e9f4bb7dfd6cf67b77106530b86fc",
@@ -6122,28 +6126,20 @@
    "sha256": "e91352bac3a9d624b5450badab2f4b1af3d3ad6a84c036966fa8cd48ac946310",
    "size": 1630879
   },
-  "minecraft/shaderpacks/BSL_v10.1.3.zip": {
-   "sha256": "ef11198079f1429c73511aeeaf653f8a93db762e59de96eedc0bcece7599f561",
-   "size": 1140105
-  },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
    "size": 1820846
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt": {
-   "sha256": "8575b41e9d0912ad56308869b0f7d0e48c09601e7e9107c2ae899743e1ed2fae",
-   "size": 57
-  },
-  "minecraft/shaderpacks/FastPBR_v2.0.zip": {
-   "sha256": "f14708340f9ef0f60ad48b7c5e43fdfcaedf892fa56ce27e9ede772ae7c38082",
-   "size": 1124617
+   "sha256": "103a8810a5b54776ea69141f3abfdf871dc81e3196acfb5b5d5af1ff530ac3b2",
+   "size": 775
   },
   "minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip": {
    "sha256": "501a155e9c8a35e2acf75ac0642332cf51489a572a7ddaa80582cd99a99085c8",
    "size": 399298
   },
   "minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
-   "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
+   "sha256": "6fb69ca3e00d48d01d908a1b8cb85f6230ad132038208df4193461661f97aa9d",
    "size": 99
   },
   "minecraft/tlm_custom_pack/maidspell_geckolib_models-1.0.0/assets/geckolib/animation/winefox_elf.condition.animation.json": {
@@ -11258,73 +11254,249 @@
    "sha256": "05ea336d64d5da99ddc608ff7d49d5a57ab522d3684ad5a3fd55a02ad5330775",
    "size": 983
   },
-  "profiles/high/minecraft/config/DistantHorizons.toml": {
-   "sha256": "7ea25df9dab25d8ebf3a71efaa4c755ef2594688580ebeb27514e3eecbd963a1",
-   "size": 32105
+  "profiles/mac-high/minecraft/config/DistantHorizons.toml": {
+   "sha256": "0ff82574592018ae6c986c5bf51f70217f46da3a9251cb009af24bc08ed9973d",
+   "size": 32944
   },
-  "profiles/high/minecraft/config/iris.properties": {
-   "sha256": "7e9b011fdb1ddd3c05e0351a58a788499548d5752b0dd7c41e5c3cbdd78fa5d7",
-   "size": 297
+  "profiles/mac-high/minecraft/config/badoptimizations.txt": {
+   "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+   "size": 3458
   },
-  "profiles/high/minecraft/config/lambdynlights.toml": {
-   "sha256": "bdc493e403f274fc1aee3b99e11c4ffb264ce327967ac44daf0cf6cd662c92a9",
-   "size": 40376
+  "profiles/mac-high/minecraft/config/chloride-client.json": {
+   "sha256": "4b42d3539186ff51db5bbe6ad0ff9009a59ba98a37da9a511c68a1725caeede0",
+   "size": 1926
   },
-  "profiles/high/minecraft/config/sodium-extra-options.json": {
-   "sha256": "26167b166376df9fdfe39284124d594438df99cb395b81d0490fdb1e964a2810",
+  "profiles/mac-high/minecraft/config/entity_model_features.json": {
+   "sha256": "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920",
+   "size": 1207
+  },
+  "profiles/mac-high/minecraft/config/entity_texture_features.json": {
+   "sha256": "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc",
+   "size": 1421
+  },
+  "profiles/mac-high/minecraft/config/entityculling.json": {
+   "sha256": "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8",
+   "size": 1921
+  },
+  "profiles/mac-high/minecraft/config/immediatelyfast.json": {
+   "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+   "size": 1114
+  },
+  "profiles/mac-high/minecraft/config/iris.properties": {
+   "sha256": "1f7633df4d364b488172ccd2dad553f59da243e58134fa60e8a18e6fe0ee3b03",
+   "size": 305
+  },
+  "profiles/mac-high/minecraft/config/lambdynlights.toml": {
+   "sha256": "208552ee15680087628e97c3e2d58922b1f3b37b5763d766ab708a4699164960",
+   "size": 42090
+  },
+  "profiles/mac-high/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
    "size": 1584
   },
-  "profiles/high/minecraft/config/sodium-options.json": {
-   "sha256": "6f3f7debff90e705be828eb601c673765398d7a4a1bb22863329fc2a2eb4b1d6",
-   "size": 680
+  "profiles/mac-high/minecraft/config/sodium-options.json": {
+   "sha256": "267d3cd419b9d59eb50eca18224ad4d47325d3c8a71253818dbc8394625a649b",
+   "size": 679
   },
-  "profiles/high/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+  "profiles/mac-high/minecraft/config/sodium-shadowy-path-blocks-options.json": {
    "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
    "size": 107
   },
-  "profiles/high/minecraft/options.txt": {
-   "sha256": "4aa58da55dbe5850b5274160162c38aeb12c6d4b2c78686bfbccbd7d2b6bf1a5",
-   "size": 22836
+  "profiles/mac-high/minecraft/options.txt": {
+   "sha256": "08dc79211045e714a95d73bedf58bb915e62d51412c2530c82704460d653870c",
+   "size": 394
   },
-  "profiles/high/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
-   "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
+  "profiles/mac-high/minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt": {
+   "sha256": "cbb8d50ee661a5226f98306d96bdb055bcc15f52168e447d3bce23db86eb7287",
+   "size": 775
+  },
+  "profiles/mac-high/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "51a9bf5321e8eb3da2ec364295a789bdd9745198c8b4232bba60d0a01cc5a54e",
    "size": 99
   },
-  "profiles/low/minecraft/config/DistantHorizons.toml": {
-   "sha256": "b095a1545ce85d453d68d79e23080eba91d44d8fc26499299fc0836a2d93e289",
-   "size": 32105
+  "profiles/mac-low/minecraft/config/DistantHorizons.toml": {
+   "sha256": "71df7722044d26c2a7359f727daa697299870f311366170f93d784d4b4210884",
+   "size": 32944
   },
-  "profiles/low/minecraft/config/iris.properties": {
-   "sha256": "d57172594189e9eb9b50374f757ea94f721fbe19a1f71043a87886f6add7be40",
-   "size": 298
+  "profiles/mac-low/minecraft/config/badoptimizations.txt": {
+   "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+   "size": 3458
   },
-  "profiles/low/minecraft/config/lambdynlights.toml": {
-   "sha256": "363c1bb746c295ead4b05ae6343baac739f69f9a96ebe1dcce6c1179f8c0a192",
-   "size": 40375
+  "profiles/mac-low/minecraft/config/chloride-client.json": {
+   "sha256": "4b42d3539186ff51db5bbe6ad0ff9009a59ba98a37da9a511c68a1725caeede0",
+   "size": 1926
   },
-  "profiles/low/minecraft/config/sodium-extra-options.json": {
-   "sha256": "26167b166376df9fdfe39284124d594438df99cb395b81d0490fdb1e964a2810",
+  "profiles/mac-low/minecraft/config/entity_model_features.json": {
+   "sha256": "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920",
+   "size": 1207
+  },
+  "profiles/mac-low/minecraft/config/entity_texture_features.json": {
+   "sha256": "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc",
+   "size": 1421
+  },
+  "profiles/mac-low/minecraft/config/entityculling.json": {
+   "sha256": "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8",
+   "size": 1921
+  },
+  "profiles/mac-low/minecraft/config/immediatelyfast.json": {
+   "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+   "size": 1114
+  },
+  "profiles/mac-low/minecraft/config/iris.properties": {
+   "sha256": "6d870c1a06433264b5e8d1d4793621dca580ee805b5b98ff3e62acc7e2a12639",
+   "size": 306
+  },
+  "profiles/mac-low/minecraft/config/lambdynlights.toml": {
+   "sha256": "208552ee15680087628e97c3e2d58922b1f3b37b5763d766ab708a4699164960",
+   "size": 42090
+  },
+  "profiles/mac-low/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
    "size": 1584
   },
-  "profiles/low/minecraft/config/sodium-options.json": {
-   "sha256": "8b5c6e2fda81b3973df8dd655d376e98540faa69cd0bf17584ef02a1b23d6af5",
-   "size": 680
+  "profiles/mac-low/minecraft/config/sodium-options.json": {
+   "sha256": "1305a1aadf18de5e9168cb9d7d7764c3f69af27d4d87a65ce67981260ac9a4ff",
+   "size": 678
   },
-  "profiles/low/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+  "profiles/mac-low/minecraft/config/sodium-shadowy-path-blocks-options.json": {
    "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
    "size": 107
   },
-  "profiles/low/minecraft/options.txt": {
-   "sha256": "51a2a5d7cfe36effe4adc6fdeeb88e3cc1b3ed14d343d2b22d9cc683478c20ee",
-   "size": 366
+  "profiles/mac-low/minecraft/options.txt": {
+   "sha256": "396c38382a2666948961d3563de128733cd75ffbcc86a0ef1ab1db5e005d7bc3",
+   "size": 394
   },
-  "profiles/low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
-   "sha256": "342172501f20614da518eb69b02104c4d05be44b214154b91c5f01bcf37d7fa3",
+  "profiles/mac-low/minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt": {
+   "sha256": "cbb8d50ee661a5226f98306d96bdb055bcc15f52168e447d3bce23db86eb7287",
+   "size": 775
+  },
+  "profiles/mac-low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "51a9bf5321e8eb3da2ec364295a789bdd9745198c8b4232bba60d0a01cc5a54e",
+   "size": 99
+  },
+  "profiles/windows-high/minecraft/config/DistantHorizons.toml": {
+   "sha256": "0ff82574592018ae6c986c5bf51f70217f46da3a9251cb009af24bc08ed9973d",
+   "size": 32944
+  },
+  "profiles/windows-high/minecraft/config/badoptimizations.txt": {
+   "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+   "size": 3458
+  },
+  "profiles/windows-high/minecraft/config/chloride-client.json": {
+   "sha256": "4b42d3539186ff51db5bbe6ad0ff9009a59ba98a37da9a511c68a1725caeede0",
+   "size": 1926
+  },
+  "profiles/windows-high/minecraft/config/entity_model_features.json": {
+   "sha256": "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920",
+   "size": 1207
+  },
+  "profiles/windows-high/minecraft/config/entity_texture_features.json": {
+   "sha256": "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc",
+   "size": 1421
+  },
+  "profiles/windows-high/minecraft/config/entityculling.json": {
+   "sha256": "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8",
+   "size": 1921
+  },
+  "profiles/windows-high/minecraft/config/immediatelyfast.json": {
+   "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+   "size": 1114
+  },
+  "profiles/windows-high/minecraft/config/iris.properties": {
+   "sha256": "4bec78a988ef16f62ef803e9c57591c6775f29843e4a546c4e060d3c51341c97",
+   "size": 323
+  },
+  "profiles/windows-high/minecraft/config/lambdynlights.toml": {
+   "sha256": "208552ee15680087628e97c3e2d58922b1f3b37b5763d766ab708a4699164960",
+   "size": 42090
+  },
+  "profiles/windows-high/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "size": 1584
+  },
+  "profiles/windows-high/minecraft/config/sodium-options.json": {
+   "sha256": "267d3cd419b9d59eb50eca18224ad4d47325d3c8a71253818dbc8394625a649b",
+   "size": 679
+  },
+  "profiles/windows-high/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+   "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
+   "size": 107
+  },
+  "profiles/windows-high/minecraft/options.txt": {
+   "sha256": "acb88937ff43b4d4915241bf4cdac442400a141e3a029d7791793d7f225f918f",
+   "size": 394
+  },
+  "profiles/windows-high/minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt": {
+   "sha256": "cbb8d50ee661a5226f98306d96bdb055bcc15f52168e447d3bce23db86eb7287",
+   "size": 775
+  },
+  "profiles/windows-high/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "6fb69ca3e00d48d01d908a1b8cb85f6230ad132038208df4193461661f97aa9d",
+   "size": 99
+  },
+  "profiles/windows-low/minecraft/config/DistantHorizons.toml": {
+   "sha256": "71df7722044d26c2a7359f727daa697299870f311366170f93d784d4b4210884",
+   "size": 32944
+  },
+  "profiles/windows-low/minecraft/config/badoptimizations.txt": {
+   "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+   "size": 3458
+  },
+  "profiles/windows-low/minecraft/config/chloride-client.json": {
+   "sha256": "4b42d3539186ff51db5bbe6ad0ff9009a59ba98a37da9a511c68a1725caeede0",
+   "size": 1926
+  },
+  "profiles/windows-low/minecraft/config/entity_model_features.json": {
+   "sha256": "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920",
+   "size": 1207
+  },
+  "profiles/windows-low/minecraft/config/entity_texture_features.json": {
+   "sha256": "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc",
+   "size": 1421
+  },
+  "profiles/windows-low/minecraft/config/entityculling.json": {
+   "sha256": "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8",
+   "size": 1921
+  },
+  "profiles/windows-low/minecraft/config/immediatelyfast.json": {
+   "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+   "size": 1114
+  },
+  "profiles/windows-low/minecraft/config/iris.properties": {
+   "sha256": "6d870c1a06433264b5e8d1d4793621dca580ee805b5b98ff3e62acc7e2a12639",
+   "size": 306
+  },
+  "profiles/windows-low/minecraft/config/lambdynlights.toml": {
+   "sha256": "208552ee15680087628e97c3e2d58922b1f3b37b5763d766ab708a4699164960",
+   "size": 42090
+  },
+  "profiles/windows-low/minecraft/config/sodium-extra-options.json": {
+   "sha256": "c7c9ca2458032ef4d604744b27c312e65bc49d3197ee49c46c2322c266262f91",
+   "size": 1584
+  },
+  "profiles/windows-low/minecraft/config/sodium-options.json": {
+   "sha256": "1305a1aadf18de5e9168cb9d7d7764c3f69af27d4d87a65ce67981260ac9a4ff",
+   "size": 678
+  },
+  "profiles/windows-low/minecraft/config/sodium-shadowy-path-blocks-options.json": {
+   "sha256": "25baba4e198fbefd6656a38dcf0cdc3e7ccef211221b4f5218d22a778d1853fa",
+   "size": 107
+  },
+  "profiles/windows-low/minecraft/options.txt": {
+   "sha256": "396c38382a2666948961d3563de128733cd75ffbcc86a0ef1ab1db5e005d7bc3",
+   "size": 394
+  },
+  "profiles/windows-low/minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt": {
+   "sha256": "cbb8d50ee661a5226f98306d96bdb055bcc15f52168e447d3bce23db86eb7287",
+   "size": 775
+  },
+  "profiles/windows-low/minecraft/shaderpacks/MakeUp-UltraFast-9.5b.zip.txt": {
+   "sha256": "51a9bf5321e8eb3da2ec364295a789bdd9745198c8b4232bba60d0a01cc5a54e",
    "size": 99
   },
   "version.json": {
-   "sha256": "b0d405f186bf2420a562d32c59084a6a28f80c49307efd7ce6185d4e3293a927",
-   "size": 1021
+   "sha256": "d1475096b8894493b561fe937a3e9619cd6c3daf97e958939ec1ad0558762cd5",
+   "size": 1253
   }
  }
 }
