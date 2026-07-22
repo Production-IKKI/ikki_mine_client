@@ -5,7 +5,7 @@ showLevelOverHead = true
 overHeadRenderDistance = 32
 # Default: 0.0
 # Range: -100.0 ~ 100.0
-overHeadRenderOffset = 0.0
+overHeadRenderOffset = 2.5
 overHeadRenderFullBright = true
 # Default: 11184810
 # Range: > -2147483648

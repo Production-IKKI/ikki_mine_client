@@ -40,10 +40,12 @@
     }
   ],
   "profiles": [
-    "high",
-    "low"
+    "windows-high",
+    "windows-low",
+    "mac-high",
+    "mac-low"
   ],
   "default_profile": "high",
   "full_pack_release_tag": "v1.0",
-  "min_tool_version": "1.0.0"
+  "min_tool_version": "1.3.0"
 }
