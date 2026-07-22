@@ -1,8 +1,15 @@
 {
-  "version": "1.4",
-  "released": "2026-07-20",
+  "version": "1.5",
+  "released": "2026-07-23",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "1.5",
+      "date": "2026-07-23",
+      "notes": [
+        "起動しないバグ修正・性能プリセットの最適化・modの追加更新"
+      ]
+    },
     {
       "version": "1.4",
       "date": "2026-07-20",
