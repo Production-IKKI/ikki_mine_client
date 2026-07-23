@@ -306,7 +306,7 @@ _version = 4
 			# DEFAULT: Default lod renderer 
 			# DEBUG_TRIANGLE: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# If true overlapping quads will be rendered as bright red for easy identification. 
 			# If false the quads will be rendered normally.
@@ -643,7 +643,7 @@ _version = 4
 				# ENABLED: Simulates Minecraft's block shading for LODs. 
 				#               Can be used to force LOD shading when using some shaders. 
 				# DISABLED: All LOD sides will be rendered with the same brightness.
-				lodShading = "AUTO"
+				lodShading = "DISABLED"
 				#
 				# How saturated LOD colors are. 
 				# 

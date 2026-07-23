@@ -1,8 +1,15 @@
 {
-  "version": "1.5",
-  "released": "2026-07-23",
+  "version": "1.6",
+  "released": "2026-07-24",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "1.6",
+      "date": "2026-07-24",
+      "notes": [
+        "地形系の最適化とウィジェットの更新"
+      ]
+    },
     {
       "version": "1.5",
       "date": "2026-07-23",

@@ -1613,6 +1613,10 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.glimmering_gardens]
 				firefly = true
 
+			[light_sources.settings.entities.automobility]
+				automobile = true
+				hitbox = true
+
 [debug]
 	active_dynamic_lighting_cells = false
 	display_dynamic_lighting_chunk_rebuild = false

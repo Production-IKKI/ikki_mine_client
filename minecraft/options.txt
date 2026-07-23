@@ -2,7 +2,7 @@ version:3955
 ao:true
 biomeBlendRadius:0
 enableVsync:true
-entityDistanceScaling:1.5
+entityDistanceScaling:1.25
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:true
@@ -17,12 +17,12 @@ gamma:0.5
 graphicsMode:1
 guiScale:0
 maxFps:60
-mipmapLevels:1
+mipmapLevels:0
 narrator:0
 particles:1
 reducedDebugInfo:false
 renderClouds:"false"
-renderDistance:8
+renderDistance:74
 simulationDistance:5
 screenEffectScale:0.7077464788732394
 soundDevice:""
@@ -375,10 +375,10 @@ key_key.relics.research_relic:key.keyboard.left.shift
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.averagedps.toggle_drag:key.keyboard.o
-key_key.twilightforest.zoom:key.keyboard.f:CONTROL
 key_key.twilightforest.swap_hotbar:key.keyboard.1:CONTROL
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
+key_key.twilightforest.zoom:key.keyboard.f:CONTROL
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c:SHIFT
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.gtbcs_spell_lib.lore_item_previous:key.keyboard.left
 key_key.gtbcs_spell_lib.lore_item_next:key.keyboard.right
 key_key.legendarysurvivaloverhaul.added_desc:key.keyboard.left.shift
