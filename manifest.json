@@ -1,13 +1,13 @@
 {
- "generated": "2026-07-23T16:01:27+00:00",
- "commit": "ccb80bec416ae2e768ac0f76faf27673895a8c11",
+ "generated": "2026-07-25T05:30:47+00:00",
+ "commit": "1a39b55ed3ba6054560a903e32460e823eceac64",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
    "size": 12826
   },
   "instance.cfg": {
-   "sha256": "ca72419035c1831c725e3665ff2c5e166b785671b922ec6370634d79e7b19da6",
+   "sha256": "22162f230d52bde05af86f2e2686a21aef5bcd9a779f9d089e0491cfeeff7c6f",
    "size": 2041
   },
   "minecraft/armourers_workshop/skin-library/downloads/01179 - Hakai Barrier.armour": {
@@ -6155,8 +6155,8 @@
    "size": 30687
   },
   "minecraft/options.txt": {
-   "sha256": "070028d3a09d2bd013d06b6403d67a382f42cef3872ff62fe390136d4d903e34",
-   "size": 22838
+   "sha256": "4dca2689a6b7e55ee9f0d8b9e171a26a5a9d239d7b7f4b8608c5249068e11154",
+   "size": 22837
   },
   "minecraft/resourcepacks/ikki_boss_client.zip": {
    "sha256": "5f7b98c526a6faa7b87a9207c555b8ec829ae6c9045485163bae6752492bffed",
