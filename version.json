@@ -1,8 +1,15 @@
 {
-  "version": "1.6",
-  "released": "2026-07-24",
+  "version": "1.7",
+  "released": "2026-07-25",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "1.7",
+      "date": "2026-07-25",
+      "notes": [
+        "権原不足時に起動の妨げとなるモッドを削除"
+      ]
+    },
     {
       "version": "1.6",
       "date": "2026-07-24",
