@@ -1,13 +1,13 @@
 {
- "generated": "2026-07-25T05:30:47+00:00",
- "commit": "1a39b55ed3ba6054560a903e32460e823eceac64",
+ "generated": "2026-07-25T05:38:17+00:00",
+ "commit": "65493c1e858804e64dda8ab0b4486418bd3ba28f",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
    "size": 12826
   },
   "instance.cfg": {
-   "sha256": "22162f230d52bde05af86f2e2686a21aef5bcd9a779f9d089e0491cfeeff7c6f",
+   "sha256": "d00dd7a76ff108a2d363b4656c9607825cd4049c2b093c0ef90bfaeda46d4670",
    "size": 2041
   },
   "minecraft/armourers_workshop/skin-library/downloads/01179 - Hakai Barrier.armour": {
@@ -5581,10 +5581,6 @@
   "minecraft/mods/maxhealthfix-neoforge-1.21.1-21.1.4.jar": {
    "sha256": "762f7ecc02070781119ba50d82c79a5d8c512bb8c78f6dfae0bcc667f7430105",
    "size": 20034
-  },
-  "minecraft/mods/mcef-neoforge-2.1.6-1.21.1.jar": {
-   "sha256": "0c7696216fa5cfee659d687475873c847a9a17cc8ce3a56119a69c946eeb8772",
-   "size": 215373
   },
   "minecraft/mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar": {
    "sha256": "070b817d3282760d9789b22ce13779613c8b558e02012fd5884d343175d88fd9",
@@ -11539,8 +11535,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "035f90e229ef2783893dc056f61d94a3d310f72addce17e55e16760d693e2fc3",
-   "size": 1405
+   "sha256": "7c4a89fe20b9e2c9cbad69694f1a76effc7373cf434afca8da34acdbd257d999",
+   "size": 1566
   }
  }
 }
