@@ -1,8 +1,15 @@
 {
-  "version": "1.7",
-  "released": "2026-07-25",
+  "version": "1.8",
+  "released": "2026-07-27",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "1.8",
+      "date": "2026-07-27",
+      "notes": [
+        "新モッドの追加(LODチャンク生成効率化)"
+      ]
+    },
     {
       "version": "1.7",
       "date": "2026-07-25",
