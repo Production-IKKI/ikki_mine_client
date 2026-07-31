@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-27T14:37:45+00:00",
- "commit": "fc9c05fb25efb75766f18d5e4c19a304bd2817d7",
+ "generated": "2026-07-31T08:30:34+00:00",
+ "commit": "ab7d5be8fed491f0dec5843c85b1246dbe7622e1",
  "files": {
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
@@ -2163,20 +2163,20 @@
    "size": 51
   },
   "minecraft/config/fancymenu/customizablemenus.txt": {
-   "sha256": "85583f3acd701a9b1137e9b03e7b4a8db3e93da4819b49961b3365953a90a7f6",
-   "size": 351
+   "sha256": "083cba0697915dd493086ee5041bbfdedddb9f04684c3e4b21eea4680f4f3eff",
+   "size": 417
   },
   "minecraft/config/fancymenu/customization/config_menyu_dh.txt": {
-   "sha256": "00ec34be4e9a8a6ed94f4593c0e59292dd75bd48f5d833b70905e75101d5c1a5",
-   "size": 50426
+   "sha256": "0c2fa53a3a266a57b00907cf93f0c25ff0939cdfc4830a366f364f9ac2a3bdce",
+   "size": 50420
   },
   "minecraft/config/fancymenu/customization/inventory_screen_layout.txt": {
    "sha256": "bfd5c225dcc6e30211b5a7f2ad5c7d17aa5615c2348a77d27f084fd508db4f73",
    "size": 47767
   },
   "minecraft/config/fancymenu/customization/title_screen_layout.txt": {
-   "sha256": "3202733b697d1573de4de0c1aac6d0252abee1bcf7be2aa7be07650e3da00f3d",
-   "size": 68497
+   "sha256": "2a472d1ebc99fc51bc30e515e3b69086ba4f5a9f08b9ad7631ff5db6291c6020",
+   "size": 74098
   },
   "minecraft/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget": {
    "sha256": "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495",
@@ -2227,8 +2227,8 @@
    "size": 9347
   },
   "minecraft/config/fancymenu/user_variables.db": {
-   "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
-   "size": 23
+   "sha256": "2bc028cfc18477ea0308518031ab483bcf1f545d43cf424aca846e6d688a8693",
+   "size": 111
   },
   "minecraft/config/farmersdelight-client.toml": {
    "sha256": "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e",
@@ -6155,8 +6155,8 @@
    "size": 30687
   },
   "minecraft/options.txt": {
-   "sha256": "4dca2689a6b7e55ee9f0d8b9e171a26a5a9d239d7b7f4b8608c5249068e11154",
-   "size": 22837
+   "sha256": "f58187d7ab000c6fcdd773fcd36cdf75e812d891effb15b25cea2e03ecbca183",
+   "size": 22783
   },
   "minecraft/resourcepacks/ikki_boss_client.zip": {
    "sha256": "5f7b98c526a6faa7b87a9207c555b8ec829ae6c9045485163bae6752492bffed",
@@ -11539,8 +11539,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "161b02a4ab385477c519e930d57ad48fd0eeee7a3629ce593d26f4ae94d5cb69",
-   "size": 1720
+   "sha256": "d405e98ba312bddbcb7ebebf44c28795f7a8fdedd1882bd64be4da57f713b8f2",
+   "size": 1899
   }
  }
 }
