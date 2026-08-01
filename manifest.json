@@ -1,7 +1,11 @@
 {
- "generated": "2026-07-31T08:30:34+00:00",
- "commit": "ab7d5be8fed491f0dec5843c85b1246dbe7622e1",
+ "generated": "2026-08-01T10:18:35+00:00",
+ "commit": "19ba4e15e5a1cf247f26d271b442bce5eb031873",
  "files": {
+  "emi.json": {
+   "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
+   "size": 8716
+  },
   "icon.png": {
    "sha256": "81c2fc60c2db2f01ddaa5dbacc909af584689ef68eb44708506e7bc5a28bf451",
    "size": 12826
@@ -6159,16 +6163,16 @@
    "size": 22783
   },
   "minecraft/resourcepacks/ikki_boss_client.zip": {
-   "sha256": "5f7b98c526a6faa7b87a9207c555b8ec829ae6c9045485163bae6752492bffed",
-   "size": 4949
+   "sha256": "66cefc9ffb755bd801ca6fd71495dd829437e5a717ff9f92ab000fcba472da09",
+   "size": 5002
   },
   "minecraft/resourcepacks/ikki_fixpack_assets.zip": {
-   "sha256": "4d6104f3fbd803f239baaa541ca77493ad051c42a5fae8686ac4a77ba7eee881",
-   "size": 12684
+   "sha256": "7cd8a9f80928a551689c6569ba78e6262d0297e440a2b4333b49cb8a0b058aa1",
+   "size": 12621
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "e91352bac3a9d624b5450badab2f4b1af3d3ad6a84c036966fa8cd48ac946310",
-   "size": 1630879
+   "sha256": "d25dd41e7cca4faa98b41d93ec2351be1f02ce316ecf30def24c5d2340a69f3c",
+   "size": 1646214
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11295,8 +11299,8 @@
    "size": 1234
   },
   "mmc-pack.json": {
-   "sha256": "da963b320ed89e85644451abfcd252f8cda724e23697629b950522b465aeb2c9",
-   "size": 947
+   "sha256": "05ea336d64d5da99ddc608ff7d49d5a57ab522d3684ad5a3fd55a02ad5330775",
+   "size": 983
   },
   "profiles/mac-high/minecraft/config/DistantHorizons.toml": {
    "sha256": "0ff82574592018ae6c986c5bf51f70217f46da3a9251cb009af24bc08ed9973d",
@@ -11539,8 +11543,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "d405e98ba312bddbcb7ebebf44c28795f7a8fdedd1882bd64be4da57f713b8f2",
-   "size": 1899
+   "sha256": "519064204ebfe1c07e42778e66051a3e55fcaa0301c1e5e16cfd27bce2d39736",
+   "size": 2066
   }
  }
 }
