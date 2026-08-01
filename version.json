@@ -1,8 +1,15 @@
 {
-  "version": "2.0",
-  "released": "2026-07-31",
+  "version": "2.1",
+  "released": "2026-08-01",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "2.1",
+      "date": "2026-08-01",
+      "notes": [
+        "言語設定ファイルなどの設定更新・emiの設定更新"
+      ]
+    },
     {
       "version": "2.0",
       "date": "2026-07-31",
