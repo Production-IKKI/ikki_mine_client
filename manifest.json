@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-01T10:18:35+00:00",
- "commit": "19ba4e15e5a1cf247f26d271b442bce5eb031873",
+ "generated": "2026-08-04T03:13:40+00:00",
+ "commit": "ab3bea2364e17ba6087c869552ed231cd7f282ef",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -11,7 +11,7 @@
    "size": 12826
   },
   "instance.cfg": {
-   "sha256": "d00dd7a76ff108a2d363b4656c9607825cd4049c2b093c0ef90bfaeda46d4670",
+   "sha256": "2dc4c1d6a42355649edde51deebc7269b70d4e37c8f4a48a112319188fbae779",
    "size": 2041
   },
   "minecraft/armourers_workshop/skin-library/downloads/01179 - Hakai Barrier.armour": {
@@ -5409,6 +5409,10 @@
   "minecraft/mods/idas-1.13.4+1.21.1-neoforge.jar": {
    "sha256": "4f45fdfaadc70044c60878a820667da5238727803502777b411466fb6eda0548",
    "size": 14393333
+  },
+  "minecraft/mods/ikki-maid-curios-1.2.0.jar": {
+   "sha256": "3092addf7d17ab31d012c7a3a510698853a3224ee85f481ee341fd39381f7a0f",
+   "size": 8761
   },
   "minecraft/mods/ikki-nametag-fix-1.0.0.jar": {
    "sha256": "239e81af7c95867e533fdccc34714657cb49493f0cc7d523f48573710c8644c0",
@@ -11543,8 +11547,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "519064204ebfe1c07e42778e66051a3e55fcaa0301c1e5e16cfd27bce2d39736",
-   "size": 2066
+   "sha256": "f3c849f74acb8ad5f8213721cf1ee372012ecd356a000b8848ba5c070e9e8647",
+   "size": 2206
   }
  }
 }
