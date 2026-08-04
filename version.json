@@ -1,8 +1,15 @@
 {
-  "version": "2.1",
-  "released": "2026-08-01",
+  "version": "2.2",
+  "released": "2026-08-04",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "2.2",
+      "date": "2026-08-04",
+      "notes": [
+        "メイドのキュリオスバグ修正"
+      ]
+    },
     {
       "version": "2.1",
       "date": "2026-08-01",
