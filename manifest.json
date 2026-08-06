@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-04T03:13:40+00:00",
- "commit": "ab3bea2364e17ba6087c869552ed231cd7f282ef",
+ "generated": "2026-08-06T06:55:15+00:00",
+ "commit": "7c3a0e4f9cd479875f7969d78fda20f60b8e0c2b",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -2351,7 +2351,7 @@
    "size": 689
   },
   "minecraft/config/ikkipartyhud-client.properties": {
-   "sha256": "18f70afeb234062bbf9a59048d04b091fa01ff28e71d6ae55a09351d57e12371",
+   "sha256": "8289e5c93782578e7bad4828a37b102764b0a2a29470ccec32bc54342906f88b",
    "size": 1743
   },
   "minecraft/config/ikkipartyhud-client.properties.bak_20260704": {
@@ -5410,9 +5410,9 @@
    "sha256": "4f45fdfaadc70044c60878a820667da5238727803502777b411466fb6eda0548",
    "size": 14393333
   },
-  "minecraft/mods/ikki-maid-curios-1.2.0.jar": {
-   "sha256": "3092addf7d17ab31d012c7a3a510698853a3224ee85f481ee341fd39381f7a0f",
-   "size": 8761
+  "minecraft/mods/ikki-maid-curios-1.3.0.jar": {
+   "sha256": "0bfbe80ad1371fffd3a92fde2450e2638b082b5122cf38972a5b191d031c0911",
+   "size": 10209
   },
   "minecraft/mods/ikki-nametag-fix-1.0.0.jar": {
    "sha256": "239e81af7c95867e533fdccc34714657cb49493f0cc7d523f48573710c8644c0",
@@ -5930,10 +5930,6 @@
    "sha256": "a631cd09277147bd40aac0392d3b3abe686b07db58cdac0833b16111e0c05ddf",
    "size": 25114
   },
-  "minecraft/mods/stellarity-lite-3.0.5.8.jar": {
-   "sha256": "cc369d6f6bdc003cee464297760ab0de5e1bbd8ff0c98a8fb81c9df0b0ef5791",
-   "size": 16575402
-  },
   "minecraft/mods/stellarityxyung-1.0.jar": {
    "sha256": "358502bed58421de62e536afeea3365300096f7a98f34542887d3c3883416180",
    "size": 22053
@@ -6163,8 +6159,8 @@
    "size": 30687
   },
   "minecraft/options.txt": {
-   "sha256": "f58187d7ab000c6fcdd773fcd36cdf75e812d891effb15b25cea2e03ecbca183",
-   "size": 22783
+   "sha256": "269ebfc9110350ae0792c447e30de8550e1091c11329be67e0fdbe19e9b9cc61",
+   "size": 22796
   },
   "minecraft/resourcepacks/ikki_boss_client.zip": {
    "sha256": "66cefc9ffb755bd801ca6fd71495dd829437e5a717ff9f92ab000fcba472da09",
@@ -6175,8 +6171,8 @@
    "size": 12621
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "d25dd41e7cca4faa98b41d93ec2351be1f02ce316ecf30def24c5d2340a69f3c",
-   "size": 1646214
+   "sha256": "26dfec8f98613f4671272606a74cb75e7af1ea3695d96b8945369713d5d59a37",
+   "size": 1667604
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11547,8 +11543,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "f3c849f74acb8ad5f8213721cf1ee372012ecd356a000b8848ba5c070e9e8647",
-   "size": 2206
+   "sha256": "d63c554a1eaf5a6bb3ad2f9247d6fd8b2f92e1092f6ec19006bd99a70e4772f4",
+   "size": 2388
   }
  }
 }
