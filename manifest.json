@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-06T06:55:15+00:00",
- "commit": "7c3a0e4f9cd479875f7969d78fda20f60b8e0c2b",
+ "generated": "2026-08-06T09:23:51+00:00",
+ "commit": "a20aebc65ce7a286e8aed0d5b2a5c5ad4a2b1c53",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -5410,9 +5410,9 @@
    "sha256": "4f45fdfaadc70044c60878a820667da5238727803502777b411466fb6eda0548",
    "size": 14393333
   },
-  "minecraft/mods/ikki-maid-curios-1.3.0.jar": {
-   "sha256": "0bfbe80ad1371fffd3a92fde2450e2638b082b5122cf38972a5b191d031c0911",
-   "size": 10209
+  "minecraft/mods/ikki-maid-curios-1.4.0.jar": {
+   "sha256": "db0e5ecbae002d1fe12a2b57a57ab454c2cd2e2cd677f2a35adb944001ea9a03",
+   "size": 11410
   },
   "minecraft/mods/ikki-nametag-fix-1.0.0.jar": {
    "sha256": "239e81af7c95867e533fdccc34714657cb49493f0cc7d523f48573710c8644c0",
@@ -6171,8 +6171,8 @@
    "size": 12621
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "26dfec8f98613f4671272606a74cb75e7af1ea3695d96b8945369713d5d59a37",
-   "size": 1667604
+   "sha256": "ea697b3aa4d1f86d1684a5f67cc1992ff96627e68668f829add3a787c30fc2c1",
+   "size": 1664303
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11543,8 +11543,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "d63c554a1eaf5a6bb3ad2f9247d6fd8b2f92e1092f6ec19006bd99a70e4772f4",
-   "size": 2388
+   "sha256": "34c48d304932effc15a0bd866110a14e03a795ccfeb2f6ec90d55b0c000a3a9d",
+   "size": 2531
   }
  }
 }
