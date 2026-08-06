@@ -1,8 +1,15 @@
 {
-  "version": "2.3",
+  "version": "2.4",
   "released": "2026-08-06",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "2.4",
+      "date": "2026-08-06",
+      "notes": [
+        "翻訳の更新・クラッシュの修正"
+      ]
+    },
     {
       "version": "2.3",
       "date": "2026-08-06",
