@@ -210,7 +210,7 @@ key_key.occultism.familiar.fairy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.beaver_familiar:key.keyboard.unknown
 key_key.familiarslib.summoning_key:key.keyboard.x
-key_key.familiarslib.screen_key:key.keyboard.h
+key_key.familiarslib.screen_key:key.keyboard.h:SHIFT
 key_key.familiarslib.familiar_quick_summon_1:key.keyboard.unknown
 key_key.familiarslib.familiar_quick_summon_2:key.keyboard.unknown
 key_key.familiarslib.familiar_quick_summon_3:key.keyboard.unknown
@@ -239,7 +239,7 @@ key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
 key_key.trashslot.toggle:key.keyboard.t
 key_key.trashslot.toggle_lock:key.keyboard.unknown
 key_key.trashslot.delete:key.keyboard.delete
-key_key.trashslot.delete_all:key.keyboard.delete:SHIFT
+key_key.trashslot.delete_all:key.keyboard.unknown
 key_key.sophisticatedcore.sort:key.mouse.middle
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
@@ -253,7 +253,7 @@ key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.touhou_little_maid.stt_chat.desc:key.keyboard.x:SHIFT
+key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown
 key_key.touhou_little_maid.dismount.desc:key.keyboard.r:SHIFT
 key_key.cataclysm.ability:key.keyboard.v
 key_key.cataclysm.helmet_ability:key.keyboard.c:CONTROL
@@ -349,9 +349,9 @@ key_key.category.flightassistant.thrust.set_toga:key.keyboard.right
 key_key.aether.open_accessories.desc:key.keyboard.i
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.v:SHIFT
-key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.r:CONTROL
+key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.b:CONTROL
 key_key.deep_aether.slider_eye_ability:key.keyboard.left.alt
-key_key.deep_aether.toggle_skyjade_transparency:key.keyboard.v:SHIFT
+key_key.deep_aether.toggle_skyjade_transparency:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.a
 key_key.immersive_aircraft.fallback_control_right:key.keyboard.d
 key_key.immersive_aircraft.fallback_control_forward:key.keyboard.w
@@ -374,10 +374,10 @@ key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.relics.research_relic:key.keyboard.left.shift
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_key.averagedps.toggle_drag:key.keyboard.o
+key_key.averagedps.toggle_drag:key.keyboard.unknown
+key_key.twilightforest.item_display_map_cycle:key.keyboard.c:SHIFT
 key_key.twilightforest.zoom:key.keyboard.f:CONTROL
 key_key.twilightforest.red_thread_vision:key.keyboard.unknown
-key_key.twilightforest.item_display_map_cycle:key.keyboard.c:SHIFT
 key_key.twilightforest.swap_hotbar:key.keyboard.1:CONTROL
 key_key.gtbcs_spell_lib.lore_item_previous:key.keyboard.left
 key_key.gtbcs_spell_lib.lore_item_next:key.keyboard.right
@@ -432,7 +432,7 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
-key_key.beltborne_lanterns.open_config:key.keyboard.l
+key_key.beltborne_lanterns.open_config:key.keyboard.unknown
 key_key.beltborne_lanterns.toggle_debug:key.keyboard.unknown
 key_key.beltborne_lanterns.open_debug:key.keyboard.unknown
 key_key.beltborne_lanterns.toggle_lantern:key.keyboard.unknown
