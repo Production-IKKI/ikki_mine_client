@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-06T09:23:51+00:00",
- "commit": "a20aebc65ce7a286e8aed0d5b2a5c5ad4a2b1c53",
+ "generated": "2026-08-13T09:59:19+00:00",
+ "commit": "3bbaf9f4a1f9f0a5e222f4dcf056b3123ea1b987",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -4897,10 +4897,6 @@
   "minecraft/mods/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar": {
    "sha256": "03acad0637dd5d86361178eb3e87ad8f2ed965e9c84514df4dc4228bb24aa2aa",
    "size": 585998
-  },
-  "minecraft/mods/big-globe-when-dungeons-arise-compatibility-1.1.jar": {
-   "sha256": "57008d4289ac6caff8809b90c753d362596031140ff5fee4adf3412b704f370b",
-   "size": 42560
   },
   "minecraft/mods/bl_accessories_layer-1.2.2-neoforge+1.21.1.jar": {
    "sha256": "6794ceb24322bce6288b65f19bdac765e8954eb4527fdf52d9154fb18449a11e",
@@ -11543,8 +11539,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "34c48d304932effc15a0bd866110a14e03a795ccfeb2f6ec90d55b0c000a3a9d",
-   "size": 2531
+   "sha256": "61d4d5e01d5cb666cea3bf2fdee118dfd0b2336092b5bd4e3e6ead6ca0d272f8",
+   "size": 2653
   }
  }
 }
