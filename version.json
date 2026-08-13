@@ -1,8 +1,15 @@
 {
-  "version": "2.4",
-  "released": "2026-08-06",
+  "version": "2.5",
+  "released": "2026-08-13",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "2.5",
+      "date": "2026-08-13",
+      "notes": [
+        "非対応MODの削除"
+      ]
+    },
     {
       "version": "2.4",
       "date": "2026-08-06",
