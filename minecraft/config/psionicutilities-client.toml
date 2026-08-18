@@ -1,0 +1,4 @@
+#Disable showing guide book with the Psi keybind
+disableGuideBookHotkey = true
+#Use shift+tab instead of alt+tab to focus previous piece in the catalog
+foucsPreviousWithShift = true

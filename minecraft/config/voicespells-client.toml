@@ -1,0 +1,225 @@
+[hud]
+	#Position of the HUD chip on screen. offsetX/Y are pixels from the
+	#chosen corner to the nearest corner of the chip.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "BOTTOM_LEFT"
+	# Default: 5
+	# Range: 0 ~ 1000
+	offsetX = 5
+	# Default: 28
+	# Range: 0 ~ 1000
+	offsetY = 28
+	#Multiplier 0..1 applied to every colour's alpha channel.
+	#Set to 0.2 for a barely-there chip, 0 to hide the background entirely.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+
+[colors]
+	#ARGB hex strings. 8 chars include alpha ("CC0A0A0A"); 6 chars are
+	#treated as fully opaque. The leading '#' is optional.
+	background = "CC0A0A0A"
+	border = "FF1F1F1F"
+	textMuted = "FF8A8A8A"
+	toast = "FFFFD75A"
+
+[recognition]
+	#Show the live recognition monitor in the config screen. Debug aid.
+	debugMonitor = false
+	#Fuzzy fallback edit distance. 0 exact only, 1 lenient, 2 most lenient.
+	# Default: 1
+	# Range: 0 ~ 2
+	fuzzyMaxDistance = 2
+	#Match a spell phrase found as a whole word inside the heard text.
+	substringMatch = true
+	#Ignore the same spell again within this many milliseconds.
+	# Default: 800
+	# Range: 0 ~ 5000
+	dedupMillis = 800
+	#Echo lockout window (ms) — hard absolute window where a same-spell repeat
+	#is dropped regardless of inter-event gap. Catches slow Vosk emissions
+	#where partial -> final spans longer than dedupMillis AND the tail-audio
+	#case where trailing audio after the word gets grammar-forced into the
+	#just-cast spell. Set to 0 to disable. Lower this to ~600 if rapid-fire
+	#incantation chants feel laggy; raise if same-spell double-casts still
+	#slip through.
+	# Default: 1500
+	# Range: 0 ~ 10000
+	echoLockoutMillis = 1500
+	#Max number of voice-recognized spells that can stack in the cast queue
+	#while you're already casting. FIFO — oldest queued fires first.
+	# Default: 3
+	# Range: 1 ~ 5
+	castQueueSize = 3
+	#Client-side preflight: check mana + cooldown via ClientMagicData before
+	#sending the cast packet, so impossible casts don't round-trip the server.
+	clientPreflight = true
+	#Minimum average word confidence (0..1) for a final result to cast.
+	#Raise to reject mumbled/garbled audio, lower if good speech is ignored.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	minConfidence = 0.45
+	#Download the model named by modelId if no model is installed yet.
+	#Default is vosk-model-small-en-us-0.15 (~40 MB), not the larger one.
+	#Off = install a model into config/voicespells/model/ yourself.
+	autoDownloadModel = true
+	#Override the Vosk model directory. Leave empty to use the default
+	#(config/voicespells/model). Set to an absolute path to point at a
+	#shared model on disk — useful for trying different precision/speed models.
+	modelPath = ""
+	#Which speech model to use, by id. Downloaded on demand into
+	#config/voicespells/models/<id>/ when autoDownloadModel is on.
+	#Known ids: vosk-model-small-en-us-0.15 (default, ~40 MB),
+	#vosk-model-en-us-0.22-lgraph (~128 MB, more accurate English),
+	#vosk-model-small-es-0.42, vosk-model-small-ru-0.22,
+	#vosk-model-small-fr-0.22, vosk-model-small-de-0.15.
+	#A model only recognises words in its own language: to play in another
+	#language you need both the matching model here AND translated phrases in
+	#config/voicespells/phrasebook.json. modelPath overrides this entirely.
+	modelId = "vosk-model-small-en-us-0.15"
+	#Only voice-cast while sneaking. Off = always (hands-free).
+	requireSneak = false
+	#If set, the spell must be preceded by this word to cast.
+	#Example: triggerWord cast means say cast fireball.
+	#Kills false casts during voice chat. Empty = no trigger word.
+	triggerWord = ""
+	#Multiple trigger words — any one of these in the heard phrase counts.
+	#Combines with the single triggerWord above (both are accepted).
+	#Example: triggerWords = ["cast", "invoke", "summon"]
+	triggerWords = []
+	#Per-spell minimum-confidence overrides. Lets a stubborn spell that the
+	#model often hears at low confidence still cast, without lowering the
+	#global floor. Format: namespace:spell_id=0.35
+	perSpellMinConfidence = []
+	#Briefly show on-screen what was heard when it matched no spell, so you
+	#can learn which phrasings the model produces. Off by default.
+	showMisses = true
+	#Play a brief mystical chime when a phrase is recognized. Off if noisy.
+	enableEchoSfx = true
+	#Streamer mode - obscure spell names in the HUD so screen viewers can't
+	#read what you cast. The Live Monitor in the config screen still shows
+	#actual text since only you see that.
+	streamerMode = false
+	#Sass mode - occasional snarky 'was that even a spell?' toast on miss.
+	sassMode = false
+	#Cinematic accent bars top and bottom of the screen, plus corner
+	#glows, while you are casting a long spell. Tinted by themePreset,
+	#so it is purple on the default ARCANE.
+	#Off by default: the code existed since early builds but never ran,
+	#because the reflection behind it named a class that does not exist.
+	#Fixing that name switched it on for the first time, so leaving it
+	#enabled would push a visual change on people who never had it.
+	castVignette = false
+	#Combat-only mode - recognition only fires when the player took damage
+	#from a mob in the last ~10 seconds. Damage you deal does not count.
+	combatOnly = false
+	#Pause recognition when AFK (no movement for afkSeconds).
+	pauseWhenAfk = false
+	#Seconds of no movement before AFK kicks in.
+	# Default: 60
+	# Range: 5 ~ 3600
+	afkSeconds = 60
+	#Persistently show the last heard phrase on the HUD (separate from the
+	#miss toast). Useful while tuning recognition. Off by default.
+	alwaysShowHeard = false
+	#Theme accent preset. Swaps the neon palette for every screen and chip.
+	#Free: ARCANE, BLOSSOM, OCEAN, DUSK, MINT, GOLD.
+	#Unlocked by milestone: PHOENIX (10 casts), FROST (50), VERDANT (200),
+	#NECROTIC (1000).
+	#Allowed Values: ARCANE, BLOSSOM, OCEAN, DUSK, MINT, GOLD, PHOENIX, FROST, VERDANT, NECROTIC
+	themePreset = "ARCANE"
+	#Base UI palette. Independent of themePreset (which is the accent colour).
+	#DARK     — default midnight surfaces, off-white text
+	#MIDNIGHT — extra dark, low-glare for streamers
+	#SLATE    — neutral mid-grey
+	#Allowed Values: DARK, MIDNIGHT, SLATE
+	uiPalette = "DARK"
+	#Hands-free queue confirmation: when on, say 'no' to clear the cast
+	#queue, or 'yes' to acknowledge. Injects those two words into the Vosk
+	#grammar so they're listened for.
+	handsFreeConfirm = false
+	#Noise gate: skip mic frames quieter than this RMS (0..32767) before
+	#feeding them to Vosk. Stops the grammar-restricted recogniser from
+	#hallucinating spells out of silence or breath.
+	#The gate is sticky: once a loud frame arrives it stays open for ~450ms,
+	#so phoneme dips inside a word don't cut the utterance.
+	#Raise this if you see phantom casts on background noise; lower if
+	#soft speech is being missed. Set to 0 to disable the gate entirely.
+	# Default: 350.0
+	# Range: 0.0 ~ 6000.0
+	noiseGateRms = 350.0
+	#When the microphone is allowed to listen.
+	#ALWAYS_ON         - live whenever you are in a world.
+	#HOLD_KEY          - only while the push-to-talk keybind is held.
+	#HOLD_ITEM         - only while a spellbook, staff or imbued weapon is in your
+	#                    hands or your Curios slot.
+	#HOLD_KEY_AND_ITEM - both of the above at once.
+	#Unlike combatOnly and pauseWhenAfk, which filter after recognition, this
+	#gates capture itself: in every mode but ALWAYS_ON the recognizer never
+	#receives the audio at all.
+	#HOLD_ITEM is the default: it needs no keybind, and stowing your spellbook is
+	#enough to stop the mic listening. Note it counts the Curios slot too --
+	#the default castMode is CURIO_SPELLBOOK, so hands-only would never open
+	#the mic for the loadout this mod expects. If you keep a book in Curios
+	#permanently, that makes this close to ALWAYS_ON in practice.
+	#If you talk to friends over a voice-chat mod WHILE armed, use
+	#HOLD_KEY_AND_ITEM -- holding a staff is not on its own evidence you meant to
+	#cast, and that mode requires the key as well so speech never reaches the
+	#recognizer unless you asked for it. ALWAYS_ON is fully hands-free.
+	#Allowed Values: ALWAYS_ON, HOLD_KEY, HOLD_ITEM, HOLD_KEY_AND_ITEM
+	gatingMode = "HOLD_ITEM"
+	#Close the microphone device entirely while the game window is unfocused or
+	#paused. Leave this on unless you specifically want to cast while tabbed out;
+	#it means the mic is not held open while you are doing something else.
+	suspendWhenUnfocused = true
+	#Minimum number of spell phrases in the speech grammar.
+	#The grammar is narrowed to spells you can actually cast, which is what makes
+	#recognition accurate. But a very small grammar is dangerous: the recognizer
+	#picks the closest match rather than rejecting, so with only one or two
+	#phrases almost any sound becomes a spell. Below this number the grammar is
+	#padded with names of spells you do NOT have, which act as decoys - if one
+	#wins, nothing casts. Raise it if you get false casts, lower it if a spell
+	#you own is being misheard as one you do not.
+	# Default: 16
+	# Range: 1 ~ 512
+	grammarFloor = 16
+	#Capture device name, or blank for the system default.
+	#Run /voicespells devices in game to list the exact names.
+	captureDevice = ""
+	#Prefix chat messages with your voice-cast rank, e.g. '[Adept] hello'.
+	#Cosmetic only — opt-in.
+	chatRankTag = false
+	#Voice hotbar select: when on, say 'spell one' through 'spell nine' to
+	#switch the active spell slot WITHOUT casting. Useful for combat where
+	#you want to manually trigger the selected spell later.
+	voiceHotbarSelect = false
+	#Restrict recognition to spells the player currently has. Scans the
+	#Curios spellbook slot, both hands, and the hotbar for spellbooks and
+	#imbued weapons; the Vosk grammar is rebuilt to only include those.
+	#Stops Vosk from forcing background noise into the closest unowned
+	#spell name. Off = listen for every registered spell.
+	restrictToOwned = true
+	#Custom phrase to spell mappings for spells the recognizer cannot say.
+	#One entry per line, format: phrase=namespace:spell_id
+	#Example: abyss blast=traveloptics:abyssal_blast
+	customPhrases = []
+	#Flavor incantations - longer mystical phrases that cast a spell.
+	#Same mechanism as customPhrases, kept separate so technical aliases
+	#and theatrical phrases don't get tangled in the toml.
+	#Format: incantation=namespace:spell_id
+	#Example: by the power of fire=irons_spellbooks:fireball
+	incantations = []
+	#Spell ids the voice mod must never cast (e.g. addon spells that crash
+	#with your other mods). Format: namespace:spell_id, one per entry.
+	#Example: traveloptics:sword_of_the_ancients
+	blockedSpells = []
+	#Spell categories / loadouts. Say the name to cast the first castable
+	#spell from the list (skips ones on cooldown or out of mana).
+	#Format: name=namespace:spell_id,namespace:spell_id,...
+	#Example: offense=irons_spellbooks:fireball,irons_spellbooks:lightning_lance
+	loadouts = []
+
+[internal]
+	#Whether the welcome wizard has been shown yet.
+	#Flip back to true to see it again next time you load a world.
+	firstRun = true

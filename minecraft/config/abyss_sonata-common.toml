@@ -1,0 +1,21 @@
+[abyssSonataTier]
+	#Attack speed modifier used by Abyss Sonata.
+	# Default: -2.4
+	# Range: -4.0 ~ 1024.0
+	attackSpeed = -2.4
+	#Attack damage bonus used by Abyss Sonata.
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	attackDamageBonus = 16.0
+	#Additional attribute list used by Abyss Sonata.
+	#Format: attribute_id|value|operation
+	#Operation uses AttributeModifier.Operation ordinal values:
+	#0 = ADD_VALUE, 1 = ADD_MULTIPLIED_BASE, 2 = ADD_MULTIPLIED_TOTAL
+	additionalAttributes = ["irons_spellbooks:cast_time_reduction|0.20|1", "irons_spellbooks:cooldown_reduction|0.30|1", "irons_spellbooks:spell_power|0.30|1", "irons_spellbooks:eldritch_spell_power|0.10|1", "irons_spellbooks:mana_regen|0.50|1", "minecraft:player.entity_interaction_range|1.0|0"]
+
+[sakuraSpellBook]
+	#Additional attribute list used by Izumo no Kuni Fudoki.
+	#Format: attribute_id|value|operation
+	#Operation uses AttributeModifier.Operation ordinal values:
+	#0 = ADD_VALUE, 1 = ADD_MULTIPLIED_BASE, 2 = ADD_MULTIPLIED_TOTAL
+	additionalAttributes = ["irons_spellbooks:max_mana|500|0", "irons_spellbooks:spell_power|0.30|1", "irons_spellbooks:holy_spell_power|0.10|1", "irons_spellbooks:cooldown_reduction|0.20|1"]

@@ -52,18 +52,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
-  },
   "apothic_spawners": {
     "spawner": true
-  },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -75,6 +65,57 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "apprenticecodex": {
+    "atelier_station": true,
+    "essence_smoker": true,
+    "spell_dispenser": true,
+    "healing_bloom": true,
+    "auto_turret": true,
+    "archer_multiple": true,
+    "arcanum_in_a_jar": true,
+    "search_beacon": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
+  },
+  "l2hostility": {
+    "mob": true
+  },
+  "dtaddon_lib": {
+    "spile": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "mekajadeupgrade": {
+    "upgrades": true
   },
   "apotheosis": {
     "adventure": true
@@ -99,34 +140,13 @@
   "balm": {
     "jade": true
   },
-  "apprenticecodex": {
-    "atelier_station": true,
-    "essence_smoker": true,
-    "spell_dispenser": true,
-    "healing_bloom": true,
-    "auto_turret": true,
-    "archer_multiple": true,
-    "arcanum_in_a_jar": true,
-    "search_beacon": true
-  },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
   },
   "toms_storage": {
     "inventory_hopper": true,
     "inventory_config": true,
     "inventory_connector": true
-  },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
   },
   "twilightforest": {
     "drying_rack": true,
@@ -151,21 +171,7 @@
   "corpse": {
     "corpse": true
   },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
-  },
   "winefoxs_spellbooks": {
     "summoned_maid": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "main": true,
-    "display.content": true,
-    "display.status": true
   }
 }

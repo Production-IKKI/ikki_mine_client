@@ -125,6 +125,13 @@
 		[types.wood_type.crabbersdelight]
 			palm = true
 
+		[types.wood_type.monsterspellbooks]
+			coral = true
+
+		[types.wood_type.hazennstuff]
+			wisewood = true
+			frostbite_birch = true
+
 		[types.leaves_type.quark]
 			ancient = true
 			blue_blossom = true
@@ -339,6 +346,138 @@
 			fiery_blossom = true
 			azalea = true
 			ancient = true
+
+		[types.leaves_type.hazennstuff]
+			wisewood = true
+			permafrost = true
+
+		[types.leaves_type.dtbop]
+			yellow_maple = true
+			willow = true
+			umbran = true
+			spruce_undergrowth = true
+			spruce_twiglet = true
+			spruce_poplar = true
+			sparse_oak = true
+			sparse_acacia = true
+			snowblossom_twiglet = true
+			snowblossom = true
+			red_maple = true
+			redwood = true
+			rainbow_birch = true
+			poplar = true
+			pine = true
+			palm = true
+			orange_maple = true
+			oak_twiglet = true
+			mega_dark_oak = true
+			maple_twiglet = true
+			mangrove_twiglet = true
+			mahogany = true
+			magic_poplar = true
+			jungle_twiglet = true
+			jacaranda = true
+			hellbark_bush = true
+			hellbark = true
+			flowering_oak_undergrowth = true
+			flowering_oak = true
+			fir = true
+			dying = true
+			dark_poplar = true
+			dark_oak_twiglet = true
+			cypress_willow = true
+			cherry_twiglet = true
+			aspen = true
+			acacia_undergrowth = true
+			acacia_twiglet = true
+
+		[types.leaves_type.dtaddon_lib]
+			cypress = true
+			fir = true
+			poplar = true
+			palm = true
+
+		[types.leaves_type.dtcroptopia]
+			cinnamon = true
+			dragon_fruit = true
+			banana = true
+			date = true
+			coconut = true
+
+		[types.leaves_type.dtterralith]
+			tall_dark_oak = true
+			spruce_twiglet = true
+			spruce_tall_conifer = true
+			spruce_sparse = true
+			spruce_short_conifer = true
+			spruce_round = true
+			spruce_poplar = true
+			spruce_moonlight = true
+			spruce_bush = true
+			oak_yellow_conifer = true
+			oak_twilight = true
+			oak_twiglet = true
+			oak_tall_conifer = true
+			oak_sparse = true
+			oak_scruffy_tall_conifer = true
+			oak_scruffy = true
+			oak_kapok = true
+			oak_conifer = true
+			mangrove_sparse = true
+			mangrove_scruffy = true
+			jungle_windswept = true
+			jungle_sparse = true
+			jungle_sakura = true
+			jungle_jacaranda = true
+			flowering_azalea_oasis = true
+			flowering_azalea_mangrove = true
+			flowering_azalea_mahogany = true
+			flowering_azalea_canopy = true
+			dark_oak_wide = true
+			dark_oak_sakura_bush = true
+			dark_oak_sakura = true
+			dark_oak_red_maple = true
+			dark_oak_red_conifer = true
+			dark_oak_red_azalea = true
+			dark_oak_orange_conifer = true
+			dark_oak_maple = true
+			dark_oak_jacaranda = true
+			dark_oak_canopy_mirage = true
+			dark_oak_canopy = true
+			dark_oak_blue_conifer = true
+			dark_oak_ancient_mirage = true
+			dark_oak_ancient = true
+			cherry_bush = true
+			birch_windswept = true
+			birch_twilight = true
+			birch_sparse = true
+			birch_short_conifer = true
+			birch_scruffy_conifer = true
+			birch_scruffy = true
+			birch_poplar = true
+			birch_conifer = true
+			azalea_oasis = true
+			azalea_mangrove = true
+			azalea_mahogany = true
+			azalea_ebony = true
+			azalea_canopy = true
+			azalea_bush = true
+			acacia_windswept = true
+			acacia_twiglet = true
+			acacia_sparse = true
+			acacia_poplar = true
+			acacia_kapok = true
+			acacia_deciduous = true
+			acacia_conifer = true
+			acacia_bush = true
+			acacia_amethyst = true
+
+		[types.leaves_type.dtarsnouveau]
+			yellow_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+			blue_archwood = true
 
 #Disables specific entries
 [entries]

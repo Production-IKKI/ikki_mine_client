@@ -1,0 +1,4 @@
+#Psitweaks QoL client-only settings
+[spellProgrammer]
+	#Spell piece registry IDs bookmarked in the Spell Programmer
+	pieceBookmarks = []

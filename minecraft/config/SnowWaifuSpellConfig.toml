@@ -1,0 +1,55 @@
+["Snow Waifu Config"]
+	#Should Snow Queen Boss Drop the Soul
+	snowQueenLootDrop = true
+	# Default: 100
+	# Range: > 1
+	snowBallInterval = 100
+	# Default: 60
+	# Range: > 1
+	breathConeDuration = 60
+	# Default: 60
+	# Range: > 1
+	breathConeInterval = 60
+	# Default: 160
+	# Range: > 1
+	iceRayInterval = 160
+
+	["Snow Waifu Config".baseHP]
+		#Base HP function slope (a) for HP = a*level + b
+		# Default: 60.0
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		a = 60.0
+		#Base HP function intercept (b) for HP = a*level + b
+		# Default: -25.0
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		b = -25.0
+
+	["Snow Waifu Config".breathDamage]
+		#Breath(Cone) damage slope (a) for Damage = a*level + b
+		# Default: 2.5
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		a = 2.5
+		#Breath(Cone) damage intercept (b) for Damage = a*level + b
+		# Default: 0.0
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		b = 0.0
+
+	["Snow Waifu Config".rayDamage]
+		#Ray damage slope (a) for Damage = a*level + b
+		# Default: 1.5
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		a = 1.5
+		#Ray damage intercept (b) for Damage = a*level + b
+		# Default: 2.5
+		# Range: -2.147483647E9 ~ 2.147483647E9
+		b = 2.5
+
+	["Snow Waifu Config".duration]
+		#Duration slope (a) in ticks for Duration = a*level + b
+		# Default: 3000
+		# Range: > -2147483647
+		a = 3000
+		#Duration intercept (b) in ticks for Duration = a*level + b
+		# Default: 3000
+		# Range: > -2147483647
+		b = 3000

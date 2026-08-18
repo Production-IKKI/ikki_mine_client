@@ -1,0 +1,15 @@
+[view3d]
+	#Mouse rotation sensitivity in the 3D structure view
+	# Default: 0.5
+	# Range: 0.05 ~ 5.0
+	rotationSensitivity = 0.5
+	#Default zoom of the 3D structure view (blocks scale factor)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	defaultZoom = 1.0
+
+[projection]
+	#Opacity of the ghost blocks of the in-world projection (building guide)
+	# Default: 0.55
+	# Range: 0.1 ~ 1.0
+	ghostOpacity = 0.55

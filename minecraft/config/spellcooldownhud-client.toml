@@ -1,0 +1,107 @@
+#What shows up on the HUD
+[content]
+	#ONLY_ON_COOLDOWN: the icon appears when you cast a spell and fades when it is ready.
+	#ALL_EQUIPPED: always shows every equipped spell.
+	#Allowed Values: ONLY_ON_COOLDOWN, ALL_EQUIPPED
+	contentMode = "ONLY_ON_COOLDOWN"
+	#Entry order. SLOT_ORDER is the most stable: icons never swap places.
+	#Allowed Values: TIME_REMAINING_ASC, TIME_REMAINING_DESC, SLOT_ORDER, NAME
+	sortMode = "SLOT_ORDER"
+	#Maximum number of entries drawn at once.
+	# Default: 12
+	# Range: 1 ~ 64
+	maxEntries = 12
+	#Hide the HUD when the interface is hidden (F1).
+	hideWhenGuiHidden = true
+	#Show the REAL cooldown, corrected by the server clock.
+	#Iron's Spells only syncs the cooldown at the start, then the client counts down
+	#on its own at 20/s. On a low-TPS server the server counts slower, and without
+	#this correction the number hits zero before the spell is actually ready.
+	#Turn off only if you suspect the correction is getting in the way.
+	useServerTime = true
+
+#Where the HUD sits and how entries are laid out
+[layout]
+	#Screen corner used as reference. The offset is applied from it.
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	anchor = "BOTTOM_LEFT"
+	#Horizontal offset from the anchor, in GUI pixels.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	offsetX = 105
+	#Vertical offset from the anchor, in GUI pixels.
+	# Default: -60
+	# Range: -10000 ~ 10000
+	offsetY = -8
+	#Direction in which entries stack up.
+	#Allowed Values: RIGHT, LEFT, DOWN, UP
+	growDirection = "RIGHT"
+	#Icon side in GUI pixels. Iron's Spells textures are 16x16 and get scaled.
+	# Default: 20
+	# Range: 4 ~ 128
+	iconSize = 20
+	#Gap between entries, in GUI pixels.
+	# Default: 4
+	# Range: 0 ~ 64
+	spacing = 4
+	#How many entries per row (or column) before wrapping.
+	# Default: 8
+	# Range: 1 ~ 32
+	maxPerLine = 8
+
+#Look of each entry
+[style]
+	#RADIAL: circular sweep over the icon.
+	#BAR: progress bar under the icon.
+	#TEXT_LIST: text only, no icon.
+	#Allowed Values: RADIAL, BAR, TEXT_LIST
+	style = "BAR"
+	showIcon = true
+	#Spell name next to the icon. Always shown in the TEXT_LIST style.
+	showSpellName = false
+	showTimer = true
+	#SECONDS: '7s'. TENTHS: '3.4' below 10s. MM_SS: '1:05'.
+	#Allowed Values: SECONDS, TENTHS, MM_SS
+	timerFormat = "SECONDS"
+	#Spell level in a corner of the icon.
+	showSpellLevel = false
+	drawBorder = true
+
+#Colors in hex: #RRGGBB or #AARRGGBB
+[colors]
+	#Take the border/bar color from the spell's school (fire, ice, blood...)
+	#instead of borderColor. The color comes from Iron's Spells itself.
+	useSchoolColor = true
+	#Background behind the icon.
+	backgroundColor = "#90000000"
+	#Sweep / consumed part of the bar: what covers the icon while the cooldown runs.
+	sweepColor = "#B0101014"
+	#Border. Ignored when useSchoolColor is on.
+	borderColor = "#FF3C3C46"
+	#Numbers and names.
+	textColor = "#FFFFFFFF"
+	#Quick flash the moment the spell becomes ready.
+	readyFlashColor = "#A0FFFFFF"
+
+#Transparency, scale and animations
+[effects]
+	#Overall HUD opacity.
+	# Default: 1.0
+	# Range: 0.05 ~ 1.0
+	opacity = 1.0
+	#Scale of the whole HUD, applied on top of the game's GUI scale.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	scale = 1.0
+	#Fade-in ticks when appearing. 0 disables it (20 ticks = 1s).
+	# Default: 3
+	# Range: 0 ~ 100
+	fadeInTicks = 3
+	#Fade-out ticks when disappearing, in ONLY_ON_COOLDOWN mode.
+	# Default: 6
+	# Range: 0 ~ 100
+	fadeOutTicks = 6
+	#Flash the moment the spell becomes ready.
+	flashWhenReady = true
+	#In ALL_EQUIPPED mode, dim the spells that are NOT ready.
+	dimWhenOnCooldown = true

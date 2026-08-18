@@ -84,6 +84,14 @@
 		# Range: 0.1 ~ 100.0
 		damageMultiplier = 1.0
 
+	#Dry Meteor Settings
+	[spells.dry_meteor]
+		#ドライミーティアのダメージ倍率
+		#Damage multiplier for Dry Meteor
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		damageMultiplier = 1.0
+
 #Mekanism Integration Settings
 [mekanism]
 	#ガス燃焼発電機の内部エネルギー容量オーバーライド（J）
@@ -93,3 +101,29 @@
 	# Default: 2000000
 	# Range: -1 ~ 9223372036854775807
 	gasBurningGeneratorEnergyCapacity = 2000000
+
+#Item Settings
+[items]
+
+	#Gravstringer Settings
+	[items.gravstringer]
+		#グラヴストリンガーが矢に設定する基礎ダメージ
+		#Base damage assigned to arrows fired by the Gravstringer
+		# Default: 12.0
+		# Range: 0.0 ~ 2.147483647E9
+		baseDamage = 12.0
+
+	#Tunneler Settings
+	[items.tunneler]
+		#トンネラーの最低ダメージ
+		#Minimum damage dealt by the Tunneler
+		# Default: 36.0
+		# Range: 0.0 ~ 2.147483647E9
+		minimumDamage = 36.0
+
+#Psi Behavior Settings
+[psi]
+	#Whether taking damage should not deduct Psi
+	disableDamagePsiDeduction = true
+	#Whether Psi consumption should not apply a regeneration cooldown
+	disableRegenCooldown = true

@@ -1,8 +1,15 @@
 {
-  "version": "2.5",
-  "released": "2026-08-13",
+  "version": "3.0",
+  "released": "2026-08-18",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "3.0",
+      "date": "2026-08-18",
+      "notes": [
+        "大型コンテンツ更新: 魔法系・黄昏の森・PSI・Mekanism・スキルツリーで66MOD追加 / 渇きと寒暖の他MOD対応 / 翻訳更新"
+      ]
+    },
     {
       "version": "2.5",
       "date": "2026-08-13",
