@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-18T13:55:12+00:00",
- "commit": "1db275dbbb05e5fd8472642f746d3b418b154137",
+ "generated": "2026-08-20T18:56:29+00:00",
+ "commit": "ed9bc0e7f75ccf6d5c0ac444f48b00d19a2d4057",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -11,7 +11,7 @@
    "size": 12826
   },
   "instance.cfg": {
-   "sha256": "2dc4c1d6a42355649edde51deebc7269b70d4e37c8f4a48a112319188fbae779",
+   "sha256": "a0ac78ca7a8500458f9bbe04cb90533dddf5968cb93fe7d551ef8a339dc57bf0",
    "size": 2041
   },
   "minecraft/armourers_workshop/skin-library/downloads/01179 - Hakai Barrier.armour": {
@@ -5731,8 +5731,8 @@
    "size": 2444626
   },
   "minecraft/mods/incantation-0.10.2+1.21.1-neoforge.jar": {
-   "sha256": "74baeabc5e7f6ab488a1931b6501475f2850798226a223357776a6e2f02f9a3d",
-   "size": 26019269
+   "sha256": "7da9c90036582867bf07af263151d0edd130ca904a081c4b15a7b418985dba04",
+   "size": 26019539
   },
   "minecraft/mods/incendium_translation_fix_1.21.x_1.0.5.jar": {
    "sha256": "aea856086df2fbb5d237448fa6be601f7611eadd3176db45bfd37b10de0ac283",
@@ -6611,12 +6611,12 @@
    "size": 5002
   },
   "minecraft/resourcepacks/ikki_fixpack_assets.zip": {
-   "sha256": "4db2aacbbdbabfc7fcae56289a109987eccc66d5397baf7248553796d4d0a37d",
-   "size": 27930
+   "sha256": "b26e4352c201ac5e4c5720c095fbbc9f333d866e91233905b923365514a65d22",
+   "size": 27879
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "3e8b5e436d9263f7f5f9380f2e78a47e85cc7128bfe10552a514b6bf8fb450c5",
-   "size": 1847334
+   "sha256": "88017527d0432469838640cf0fb21e74b1c30df43d57c717388eb9bf94681258",
+   "size": 1845813
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11987,8 +11987,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "d310a1ed7b03212ccd417d1a45dc57c7bfadcb9d185583eabe5003dccd2520ee",
-   "size": 2907
+   "sha256": "68ebc08dc9992d1a88ac3af7a4865a9edf8282b22e878b0569d039390d2c4558",
+   "size": 3077
   }
  }
 }
