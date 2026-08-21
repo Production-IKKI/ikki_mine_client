@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-21T07:31:44+00:00",
- "commit": "f0de65231d3c6f45f3393b6dade3fa032f2da960",
+ "generated": "2026-08-21T17:08:53+00:00",
+ "commit": "da7b8029a70665c3ab09569b874a9f36206ad505",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -6623,8 +6623,8 @@
    "size": 27879
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "18e94f218b2d4a3c3023f82c7013d79237daecc65437cc65b1e1f8903a7a3d8c",
-   "size": 1853743
+   "sha256": "625e7a7161c9a2786c2090971a5a50c08ac00814f0f506fc620a889d93b9cc64",
+   "size": 1863165
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11995,8 +11995,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "cb93e7f08ca3493aef256c2ff2f2f112b8b0a24dcbf66eaeb858d5d1d9f5c09c",
-   "size": 3220
+   "sha256": "29c0b8d217dfb28968d310f335f4eb168f29387bb7f759722cb2d30883b434ae",
+   "size": 3336
   }
  }
 }
