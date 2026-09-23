@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-21T17:08:53+00:00",
- "commit": "da7b8029a70665c3ab09569b874a9f36206ad505",
+ "generated": "2026-09-23T12:17:45+00:00",
+ "commit": "0fe6a5395c2115514f5bbf4b15602e5a4f901efc",
  "files": {
   "emi.json": {
    "sha256": "a71dedc321da45fc78aa51c3fab171b29c4462ba859cf890e1428a0b4493eeee",
@@ -4558,9 +4558,9 @@
    "sha256": "bcd8a6c50f7d94698da473a675222e6038d3af09b0560e70c3394f32f798114d",
    "size": 3264862
   },
-  "minecraft/mods/DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar": {
-   "sha256": "daba497eaaefe535f04f2ee6f6be11485d3d5b46676fbf0a792d26e178ef4785",
-   "size": 30113661
+  "minecraft/mods/DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar": {
+   "sha256": "cf63717e037bc2576933d63d11246b5f2f317f4cd5b6d4ea1ea077ad027e4a36",
+   "size": 28224156
   },
   "minecraft/mods/Drip Sounds-0.5.2+1.21.8-NeoForge.jar": {
    "sha256": "b5d831c16a54ffefa4022f2d56f174a8508e334cfb3b31f91b318deaa9f8c180",
@@ -5238,6 +5238,10 @@
    "sha256": "1dcf17baa4b14bd189b045500bd3f41714089b0b36e20326298072e15ae4b1ab",
    "size": 336981
   },
+  "minecraft/mods/charms-neoforge-1.21.1-1.1.jar": {
+   "sha256": "c1c1842d15abf08485a0452a9df3e76521431b7d237ad0e5840f8feb3311f26d",
+   "size": 140117
+  },
   "minecraft/mods/chat_heads-0.15.1-neoforge-1.21.jar": {
    "sha256": "b1ed6a52efa3cb43e4c37e3982bc7b08116302511b8f675346f6aea6d3524e41",
    "size": 89272
@@ -5714,9 +5718,13 @@
    "sha256": "4f45fdfaadc70044c60878a820667da5238727803502777b411466fb6eda0548",
    "size": 14393333
   },
-  "minecraft/mods/ikki-maid-curios-1.4.0.jar": {
-   "sha256": "db0e5ecbae002d1fe12a2b57a57ab454c2cd2e2cd677f2a35adb944001ea9a03",
-   "size": 11410
+  "minecraft/mods/ikki-client-sync-1.0.0.jar": {
+   "sha256": "40ce691d5875e805c01bfb869bf2101671d826d9654245e4e5485ffbe813ddd0",
+   "size": 36598
+  },
+  "minecraft/mods/ikki-maid-curios-1.7.0.jar": {
+   "sha256": "ac2334f8516cc4e353151f6d01345d843e071876393a147e82a55a4b1d345eb8",
+   "size": 16204
   },
   "minecraft/mods/ikki-nametag-fix-1.0.0.jar": {
    "sha256": "239e81af7c95867e533fdccc34714657cb49493f0cc7d523f48573710c8644c0",
@@ -6354,10 +6362,6 @@
    "sha256": "a631cd09277147bd40aac0392d3b3abe686b07db58cdac0833b16111e0c05ddf",
    "size": 25114
   },
-  "minecraft/mods/stellarityxyung-1.0.jar": {
-   "sha256": "358502bed58421de62e536afeea3365300096f7a98f34542887d3c3883416180",
-   "size": 22053
-  },
   "minecraft/mods/storage-drawers-create-compat-1.0.1.jar": {
    "sha256": "24ad5db9ecac72ca053447ce58e17d9f286bdd93ca6d889c15ba1615ac063308",
    "size": 1321464
@@ -6623,8 +6627,8 @@
    "size": 27879
   },
   "minecraft/resourcepacks/ikki_jp_locale.zip": {
-   "sha256": "625e7a7161c9a2786c2090971a5a50c08ac00814f0f506fc620a889d93b9cc64",
-   "size": 1863165
+   "sha256": "3a3bc2b5509f78f26188a72f3fdc410bda7a48f3c843361170816e448b63ce4b",
+   "size": 1890301
   },
   "minecraft/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip": {
    "sha256": "4bc515594dd0f07c7087d7296eb8877a49b355aba19ca3e7ed6bd880d7a95b49",
@@ -11751,8 +11755,8 @@
    "size": 1234
   },
   "mmc-pack.json": {
-   "sha256": "da963b320ed89e85644451abfcd252f8cda724e23697629b950522b465aeb2c9",
-   "size": 947
+   "sha256": "05ea336d64d5da99ddc608ff7d49d5a57ab522d3684ad5a3fd55a02ad5330775",
+   "size": 983
   },
   "profiles/mac-high/minecraft/config/DistantHorizons.toml": {
    "sha256": "0ff82574592018ae6c986c5bf51f70217f46da3a9251cb009af24bc08ed9973d",
@@ -11995,8 +11999,8 @@
    "size": 99
   },
   "version.json": {
-   "sha256": "29c0b8d217dfb28968d310f335f4eb168f29387bb7f759722cb2d30883b434ae",
-   "size": 3336
+   "sha256": "a6e37e78d292765310357f452e4f67529a883eb75d709b4e5fcfb12b349efa6a",
+   "size": 3517
   }
  }
 }
