@@ -232,6 +232,8 @@ _version = 4
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
 		distantGeneratorMode = "PRE_EXISTING_ONLY"
+		chunkGeneratorMode = "PRE_EXISTING_ONLY"
+		generatorPlan = "CHUNKS_ONLY"
 		#
 		# How should distant generator progress be displayed? 
 		# 
