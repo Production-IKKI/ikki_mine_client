@@ -1,8 +1,16 @@
 {
-  "version": "3.4",
-  "released": "2026-09-23",
+  "version": "4.0",
+  "released": "2026-11-23",
   "mc_version": "1.21.1",
   "changelog": [
+    {
+      "version": "4.0",
+      "date": "2026-11-23",
+      "notes": [
+        "大型アップデート",
+        "詳細はWEBのお知らせから"
+      ]
+    },
     {
       "version": "3.4",
       "date": "2026-09-23",

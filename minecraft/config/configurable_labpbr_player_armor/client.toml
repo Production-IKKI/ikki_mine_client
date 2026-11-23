@@ -1,0 +1,53 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enabled = true
+trimEmissionEnabled = true
+trimEmissionBrightness = 254
+
+[leather]
+emissiveness = 255
+porosityOrSss = 50
+reflectance = 0
+smoothness = 60
+
+[turtle]
+emissiveness = 255
+porosityOrSss = 50
+reflectance = 0
+smoothness = 60
+
+[chainmail]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 90
+smoothness = 120
+
+[iron]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 100
+smoothness = 140
+
+[gold]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 50
+smoothness = 150
+
+[diamond]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 50
+smoothness = 150
+
+[netherite]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 20
+smoothness = 90
+
+[copper]
+emissiveness = 0
+porosityOrSss = 0
+reflectance = 50
+smoothness = 140

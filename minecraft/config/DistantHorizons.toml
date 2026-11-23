@@ -368,7 +368,7 @@ _version = 4
 				# Defines how OpenGL errors are handled. 
 				#  Requires rebooting Minecraft to change. 
 				# Will catch OpenGL errors thrown by other mods.
-				overrideVanillaGLLogger = true
+				overrideVanillaGLLogger = false
 				#
 				# Defines how OpenGL errors are handled. 
 				# May incorrectly catch OpenGL errors thrown by other mods. 
@@ -471,7 +471,7 @@ _version = 4
 				# Holes are most likely to appear when flying through unloaded terrain. 
 				# 
 				# Increasing the vanilla render distance increases the effectiveness of this setting.
-				overdrawPrevention = "0.0"
+				overdrawPrevention = "-1"
 				#
 				# If enabled caves won't be rendered. 
 				# 

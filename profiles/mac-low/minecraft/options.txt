@@ -10,7 +10,7 @@ prioritizeChunkUpdates:0
 gamma:0.5
 graphicsMode:0
 maxFps:60
-mipmapLevels:0
+mipmapLevels:4
 particles:2
 renderClouds:"false"
 renderDistance:6

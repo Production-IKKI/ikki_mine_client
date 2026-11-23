@@ -6,5 +6,5 @@
   "async_bfs": true,
   "region_keep_distance": 70,
   "translucency_sorting_level": "QUADS",
-  "statistics_level": "REGIONS"
+  "statistics_level": "NONE"
 }

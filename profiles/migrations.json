@@ -1,0 +1,411 @@
+{
+  "migrations": [
+    {
+      "id": "2026-11-chloride-ram-only",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/chloride-client.json",
+          "format": "json",
+          "key": "fpsDisplaySystemMode",
+          "from": "ALL",
+          "to": "RAM_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-win-high-bliss-ikki",
+      "edition": "windows",
+      "level": "high",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mac-high-bliss-ikki",
+      "edition": "mac",
+      "level": "high",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "MakeUp-UltraFast-9.5b.zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-low-shaderpack-name",
+      "edition": "*",
+      "level": "low",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "MakeUp-UltraFast-9.5b.zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-sodium-extra-fog-map",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/sodium-extra-options.json",
+          "format": "json",
+          "key": "render_settings.multi_dimension_fog_control",
+          "from": true,
+          "to": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-dh-gl-logger",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/DistantHorizons.toml",
+          "format": "toml",
+          "key": "client.advanced.debugging.openGl.overrideVanillaGLLogger",
+          "from": true,
+          "to": false
+        },
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "glDebugVerbosity",
+          "from": "1",
+          "to": "0"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mac-entity-shadow",
+      "edition": "mac",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/shaderpacks/Bliss_v2.1.2_IKKI*.zip.txt",
+          "format": "properties",
+          "key": "entityShadowDistanceMul",
+          "from": "0.25",
+          "to": "0.15",
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-resolver-agent-0.0.3-win",
+      "edition": "windows",
+      "level": "*",
+      "all_or_nothing": true,
+      "requires": [
+        {
+          "file": "minecraft/ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "sha256": "227b9a1a535b27ca2b529874f003f51df3aaa4bde9c290803133cde34df3a2d6"
+        }
+      ],
+      "changes": [
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "JvmArgs",
+          "from": "",
+          "to": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "from_default": true
+        },
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "OverrideJavaArgs",
+          "from": false,
+          "to": true,
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-resolver-agent-0.0.2-to-0.0.3-win",
+      "edition": "windows",
+      "level": "*",
+      "all_or_nothing": true,
+      "requires": [
+        {
+          "file": "minecraft/ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "sha256": "227b9a1a535b27ca2b529874f003f51df3aaa4bde9c290803133cde34df3a2d6"
+        }
+      ],
+      "changes": [
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "JvmArgs",
+          "from": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.2.jar",
+          "to": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.3.jar"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-dh-overdraw-auto",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/DistantHorizons.toml",
+          "format": "toml",
+          "key": "client.advanced.graphics.culling.overdrawPrevention",
+          "from": "0.0",
+          "to": "-1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mac-half-res",
+      "edition": "mac",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/sodium-extra-options.json",
+          "format": "json",
+          "key": "extra_settings.reduce_resolution_on_mac",
+          "from": false,
+          "to": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mac-high-bliss-scale50",
+      "edition": "mac",
+      "level": "high",
+      "changes": [
+        {
+          "file": "minecraft/shaderpacks/Bliss_v2.1.2_IKKI*.zip.txt",
+          "format": "properties",
+          "key": "SCALE_FACTOR",
+          "from": "0.75",
+          "to": "0.5",
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-resolver-agent-0.0.3-mac",
+      "edition": "mac",
+      "level": "*",
+      "all_or_nothing": true,
+      "requires": [
+        {
+          "file": "minecraft/ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "sha256": "227b9a1a535b27ca2b529874f003f51df3aaa4bde9c290803133cde34df3a2d6"
+        }
+      ],
+      "changes": [
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "JvmArgs",
+          "from": "",
+          "to": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "from_default": true
+        },
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "OverrideJavaArgs",
+          "from": false,
+          "to": true,
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-resolver-agent-0.0.2-to-0.0.3-mac",
+      "edition": "mac",
+      "level": "*",
+      "all_or_nothing": true,
+      "requires": [
+        {
+          "file": "minecraft/ikki_agents/ikki_resolver_agent-0.0.3.jar",
+          "sha256": "227b9a1a535b27ca2b529874f003f51df3aaa4bde9c290803133cde34df3a2d6"
+        }
+      ],
+      "changes": [
+        {
+          "file": "instance.cfg",
+          "format": "properties",
+          "key": "JvmArgs",
+          "from": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.2.jar",
+          "to": "-javaagent:ikki_agents/ikki_resolver_agent-0.0.3.jar"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-add-assets-pack",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options_list",
+          "key": "resourcePacks",
+          "from": "file/ikki_boss_client.zip",
+          "to": "file/ikki_add_assets.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-if-font-atlas-off",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/immediatelyfast.json",
+          "format": "json",
+          "key": "font_atlas_resizing",
+          "from": true,
+          "to": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-fieldguide-key-off",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "key_key.fieldguide.open",
+          "from": "key.keyboard.b",
+          "to": "key.keyboard.unknown",
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-geode-key-off",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "key_key.geo_mod.open_config",
+          "from": "key.keyboard.g",
+          "to": "key.keyboard.unknown",
+          "from_default": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mipmap-win-high",
+      "edition": "windows",
+      "level": "high",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "mipmapLevels",
+          "from": "1",
+          "to": "0"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mipmap-win-low",
+      "edition": "windows",
+      "level": "low",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "mipmapLevels",
+          "from": "0",
+          "to": "4"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mipmap-mac-high",
+      "edition": "mac",
+      "level": "high",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "mipmapLevels",
+          "from": "1",
+          "to": "4"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mipmap-mac-low",
+      "edition": "mac",
+      "level": "low",
+      "changes": [
+        {
+          "file": "minecraft/options.txt",
+          "format": "options",
+          "key": "mipmapLevels",
+          "from": "0",
+          "to": "4"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-mac-bliss-orig-to-ikki",
+      "edition": "mac",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-any-bliss-orig-to-ikki",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-bliss-ikki-to-colorwheel",
+      "edition": "*",
+      "level": "*",
+      "changes": [
+        {
+          "file": "minecraft/config/iris.properties",
+          "format": "properties",
+          "key": "shaderPack",
+          "from": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit).zip",
+          "to": "Bliss_v2.1.2_IKKI_(Chocapic13_Shaders_edit) + Clrwl_1.0.5.zip"
+        }
+      ]
+    }
+  ]
+}

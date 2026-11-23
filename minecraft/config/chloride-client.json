@@ -4,7 +4,7 @@
   "fpsDisplayMode": "SIMPLE",
   "fpsDisplayAlign": "RIGHT",
   "fpsDisplayVAlign": "TOP",
-  "fpsDisplaySystemMode": "ALL",
+  "fpsDisplaySystemMode": "RAM_ONLY",
   "fpsDisplayMargin": 12,
   "fpsDisplayVMargin": 12,
   "fpsDisplayShadow": false,
@@ -63,7 +63,10 @@
   ],
   "monsterWhitelist": [],
   "tileEntityWhitelist": [
-    "waterframes:all"
+    "waterframes:all",
+    "minecraft:beacon",
+    "create:rope_pulley",
+    "create:hose_pulley"
   ],
   "borderlessAttachModeF11": "ATTACH",
   "fastLanguageReload": true,

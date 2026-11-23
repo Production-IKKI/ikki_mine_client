@@ -7,7 +7,7 @@ quadsDedup:false
 fastTargetRaycasts:true
 composterFix:true
 disableDataFixers:true
-fastBitSets:true
+fastBitSets:false
 fastPos:true
 biomeFix:true
 chunkOptimizations:true
